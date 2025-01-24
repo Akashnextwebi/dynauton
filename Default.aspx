@@ -26,10 +26,6 @@
                         <div class="swiper-slide d-lg-block d-none" lazy="true">
                             <div class="container">
                                 <div class="home-slider-content">
-                                   <%-- <h1 class="fade-item fade-item-2">Securing Nations with 
-                                        <br />
-                                        <span>Sky-High Intelligence</span></h1>--%>
-<%--                                    <a href="#" class="fade-item fade-item-3 rounded-full tf-btn btn-fill animate-hover-btn btn-xl radius-3"><span>Know More</span><i class="icon icon-arrow-right"></i></a>--%>
                                     <img class="lazyload" data-src="imgs/mob/Securing.png" src="imgs/mob/Securing.png" alt="fashion-slideshow-01">
                                 </div>
                             </div>
@@ -37,9 +33,7 @@
                         <div class="swiper-slide d-lg-block d-none" lazy="true">
                             <div class="container">
                                 <div class="home-slider-content dark-title">
-                                    <%--<h1 class="fade-item fade-item-2">Drones for <br /> <span>DEFENCE</span></h1>
-                            <a href="#" class="fade-item fade-item-3 rounded-full tf-btn btn-fill animate-hover-btn btn-xl radius-3"><span>Know More</span><i class="icon icon-arrow-right"></i></a>--%>
-                                    <img class="lazyload" data-src="imgs/banner-2.png" src="imgs/banner-2.png" alt="fashion-slideshow-01">
+                                           <img class="lazyload" data-src="imgs/banner-2.png" src="imgs/banner-2.png" alt="fashion-slideshow-01">
                                 </div>
                             </div>
                         </div>
@@ -183,7 +177,7 @@
                             <h2 class="heading fw-6 text_white">Defence Drone</h2>
                             <p class="text_white">
                                 Our defense drones combine advanced technology
-                        <br />
+                                <br />
                                 and precision engineering to deliver unmatched aerial security
                             </p>
                         </div>
