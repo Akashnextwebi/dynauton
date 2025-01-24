@@ -231,9 +231,9 @@
                                                 <li>
                                                     <a href="technical-resource.aspx" class="menu-link-text link text_black-2">Technical Resources</a>
                                                 </li>
-                                                <li>
+                                              <%--  <li>
                                                     <a href="question-and-answer.aspx" class="menu-link-text link text_black-2">Q & A</a>
-                                                </li>
+                                                </li>--%>
                                             </ul>
                                         </div>
                                     </li>
