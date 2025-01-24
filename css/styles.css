@@ -20178,3 +20178,8 @@ section.work-card.bg-dark.flat-spacing-11 {
   background-color: #000;
   width: 100%;
 }
+
+.demo-image img {
+
+    border-radius:12px;
+}

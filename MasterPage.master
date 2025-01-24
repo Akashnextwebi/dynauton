@@ -183,7 +183,7 @@
                                              
                                             </div>
                <div class="text-center view-all-demo">
-                                                <a href="product-listing.aspx"  class="tf-btn btn-xl btn-fill radius-3 animate-hover-btn fw-6"><span>View all</span><i class=""></i></a>
+                                                <a href="product-listing.aspx"  class="tf-btn  btn-fill rounded-pill  animate-hover-btn fw-6"><span>View all</span><i class="icon icon-arrow-left"></i></a>
                                             </div>
                                         </div>
                                     </div>
