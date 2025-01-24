@@ -121,50 +121,8 @@
     </div>
 </section>
 
-<section class="flat-spacing-18 ">
-    <div class="container">
-        <div class="flat-title  text-center px-0">
-            <span class="title wow fadeInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">Our Innovations</span>
 
-        </div>
-        <div class="grid-3-layout-md wow fadeInUp" data-wow-delay="0s">
-            <div class="item-1 collection-line-upper hover-img">
-                <div class="collection-inner">
-                    <a href="#" class="collection-image img-style">
-                        <img class="lazyload" data-src="imgs/business/1.png" src="imgs/business/1.png" alt="collection-img">
-                    </a>
-                    <div class="collection-content text-center">
-                        <p class="subheading text-white">UP TO 30% OFF</p>
-                        <h5 class="heading ">SkySentinel</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="item-2 collection-line-upper hover-img">
-                <div class="collection-inner">
-                    <a href="#" class="collection-image img-style">
-                        <img class="lazyload" data-src="imgs/business/2.png" src="imgs/business/2.png" alt="collection-img">
-                    </a>
-                    <div class="collection-content text-center">
-                        <p class="subheading text-white">UP TO 30% OFF</p>
-                        <h5 class="heading ">AeroShield</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="item-3 collection-line-upper hover-img">
-                <div class="collection-inner">
-                    <a href="#" class="collection-image img-style">
-                        <img class="lazyload" data-src="imgs/business/3.png" src="imgs/business/3.png" alt="collection-img">
-                    </a>
-                    <div class="collection-content text-center">
-                        <p class="subheading text-white">UP TO 30% OFF</p>
-                        <h5 class="heading">StealthHawk</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="flat-spacing-12 wow fadeInUp bg-light" data-wow-delay="0s">
+<section class="flat-spacing-12 wow fadeInUp " data-wow-delay="0s">
     <div class="container">
         <div class="flat-title text-center px-0">
             <span class="title wow fadeInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">Applications of Defence Drone</span>

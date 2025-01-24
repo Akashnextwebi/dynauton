@@ -300,9 +300,22 @@
                     top: 5px;
                     transform: rotate(45deg);
                 }
-                .new-btn{
-                    width:max-content;
-                }
+
+        .new-btn {
+            width: max-content;
+        }
+ .icon {
+    width: 8px;
+    color: #000;
+}
+ .box-icon.w_46 {
+    width: 46px;
+    display: flex
+;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -330,13 +343,52 @@
     <section class="flat-spacing-4 ">
         <div class="tf-main-product section-image-zoom">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="tf-product-info-title text-center">
+                            <div class="tag-new">
+                                <span>Defence</span>
+                            </div>
+                            <h4 class="fw-bold mb-3">OWL 
+                                    </h4>
+                            <p>
+                                Owl a state-of-the-art payload for day/night surveillance applications for platforms like UAV, Drones, Helicopter etc.  It includes a EO camera with Full HD video and 30X optical zoom along with high performance MWIR camera with 10x optical zoom to detail even a miniature object over super long range.   
+                                   
+                            </p>
+                        </div>
+                        <div class="tf-slideshow  justify-content-center slider-effect-fade slider-accessories">
+                            <div dir="ltr" class="swiper tf-sw-slideshow" data-preview="1.6" data-tablet="1" data-mobile="1" data-centered="true" data-space="30" data-loop="true" data-auto-play="false" data-delay="2000" data-speed="1000">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" lazy="true">
+                                        <div class="wrap-slider">
+                                            <img src="imgs/pro3/1.png" alt="fashion-slideshow">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" lazy="true">
+                                        <div class="wrap-slider">
+                                            <img src="imgs/pro3/1.png" alt="fashion-slideshow">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" lazy="true">
+                                        <div class="wrap-slider">
+                                            <img src="imgs/pro3/1.png" alt="fashion-slideshow">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container wrap-navigation">
+                                <div class="nav-sw style-white nav-next-slider navigation-next-slider box-icon w_46 round"><span class="icon icon-arrow-left"></span></div>
+                                <div class="nav-sw style-white nav-prev-slider navigation-prev-slider box-icon w_46 round"><span class="icon icon-arrow-right"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-none">
                     <div class="col-md-6">
                         <div class="tf-product-media-wrap thumbs-bottom sticky-top">
                             <div class="thumbs-slider">
                                 <div dir="ltr" class="swiper tf-product-media-main" id="gallery-swiper-started">
                                     <div class="swiper-wrapper">
-                                        <!-- brown -->
                                         <div class="swiper-slide" data-color="brown">
                                             <a href="imgs/pro1/1.png" data-lightbox="image-1" class="item">
                                                 <img class=" lazyload" data-zoom="imgs/pro1/1.png" data-src="imgs/pro1/1.png" src="imgs/pro1/1.png" alt="img-product">
@@ -378,7 +430,6 @@
                                 </div>
                                 <div dir="ltr" class="swiper tf-product-media-thumbs other-image-zoom d-none" data-direction="horizontal">
                                     <div class="swiper-wrapper stagger-wrap">
-                                        <!-- brown -->
                                         <div class="swiper-slide stagger-item" data-color="brown">
                                             <div class="item">
                                                 <img class="lazyload" data-src="imgs/pro1/1.png" src="imgs/pro1/1.png" alt="img-product">
@@ -465,8 +516,7 @@
                                     <div class="y">
 
                                         <a href="#login" data-bs-toggle="modal" class="tf-btn  new-btn btn-fill1 justify-content-center fw-6 fs-16 flex-grow-1  rounded-pill animate-hover-btn btn-add-to-cart">Speak to an Expert</a>
-<%--                                        <a href="javascript:void(0);" class="tf-btn btn-fill justify-content-center fw-6 fs-16 flex-grow-1 rounded-pill animate-hover-btn btn-add-to-cart"><i class="icon icon-heart me-2"></i>Add to Wishlist</a>--%>
-
+                                        <%--                                        <a href="javascript:void(0);" class="tf-btn btn-fill justify-content-center fw-6 fs-16 flex-grow-1 rounded-pill animate-hover-btn btn-add-to-cart"><i class="icon icon-heart me-2"></i>Add to Wishlist</a>--%>
                                     </div>
 
                                 </div>

@@ -126,7 +126,7 @@
                 <span class="title wow fadeInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">Our Innovations</span>
 
             </div>
-            <div class="grid-3-layout-md wow fadeInUp" data-wow-delay="0s">
+            <div class="grid-3-layout-md justify-content-center wow fadeInUp" data-wow-delay="0s">
                 <div class="item-1 collection-line-upper hover-img">
                     <div class="collection-inner">
                         <a href="#" class="collection-image img-style">
@@ -134,7 +134,7 @@
                         </a>
                         <div class="collection-content text-center">
                             <p class="subheading text-white">UP TO 30% OFF</p>
-                            <h5 class="heading ">SkySentinel</h5>
+                            <h5 class="heading ">Patang</h5>
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@
                         </a>
                         <div class="collection-content text-center">
                             <p class="subheading text-white">UP TO 30% OFF</p>
-                            <h5 class="heading ">AeroShield</h5>
+                            <h5 class="heading ">Kavaa</h5>
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,29 @@
                         </a>
                         <div class="collection-content text-center">
                             <p class="subheading text-white">UP TO 30% OFF</p>
-                            <h5 class="heading">StealthHawk</h5>
+                            <h5 class="heading">Kaatil</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-3 collection-line-upper hover-img">
+                    <div class="collection-inner">
+                        <a href="#" class="collection-image img-style">
+                            <img class="lazyload" data-src="imgs/business/3.png" src="imgs/business/3.png" alt="collection-img">
+                        </a>
+                        <div class="collection-content text-center">
+                            <p class="subheading text-white">UP TO 30% OFF</p>
+                            <h5 class="heading">Owl</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-3 collection-line-upper hover-img">
+                    <div class="collection-inner">
+                        <a href="#" class="collection-image img-style">
+                            <img class="lazyload" data-src="imgs/business/3.png" src="imgs/business/3.png" alt="collection-img">
+                        </a>
+                        <div class="collection-content text-center">
+                            <p class="subheading text-white">UP TO 30% OFF</p>
+                            <h5 class="heading">Cheel</h5>
                         </div>
                     </div>
                 </div>
