@@ -1,0 +1,592 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="user.master.cs" Inherits="user" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <title>Dynauton Systems</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- font -->
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="fonts/font-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="imgs/fab.jpg">
+    <link rel="apple-touch-icon-precomposed" href="imgs/fab.jpg">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- /RTL  -->
+        <!-- preload -->
+        <div class="preload preload-container">
+            <div class="preload-logo">
+                <div class="spinner"></div>
+            </div>
+        </div>
+        <div id="wrapper">
+            <!-- Top bar -->
+
+            <!-- /Top bar -->
+            <!-- Header -->
+                       <header id="header" class="header-default">
+               <div class="px_15 lg-px_40">
+                   <div class="row wrapper-header align-items-center">
+                       <div class="col-md-4 col-3 tf-lg-hidden">
+                           <a href="#mobileMenu" data-bs-toggle="offcanvas" aria-controls="offcanvasLeft">
+                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16" fill="none">
+                                   <path d="M2.00056 2.28571H16.8577C17.1608 2.28571 17.4515 2.16531 17.6658 1.95098C17.8802 1.73665 18.0006 1.44596 18.0006 1.14286C18.0006 0.839753 17.8802 0.549063 17.6658 0.334735C17.4515 0.120408 17.1608 0 16.8577 0H2.00056C1.69745 0 1.40676 0.120408 1.19244 0.334735C0.978109 0.549063 0.857702 0.839753 0.857702 1.14286C0.857702 1.44596 0.978109 1.73665 1.19244 1.95098C1.40676 2.16531 1.69745 2.28571 2.00056 2.28571ZM0.857702 8C0.857702 7.6969 0.978109 7.40621 1.19244 7.19188C1.40676 6.97755 1.69745 6.85714 2.00056 6.85714H22.572C22.8751 6.85714 23.1658 6.97755 23.3801 7.19188C23.5944 7.40621 23.7148 7.6969 23.7148 8C23.7148 8.30311 23.5944 8.59379 23.3801 8.80812C23.1658 9.02245 22.8751 9.14286 22.572 9.14286H2.00056C1.69745 9.14286 1.40676 9.02245 1.19244 8.80812C0.978109 8.59379 0.857702 8.30311 0.857702 8ZM0.857702 14.8571C0.857702 14.554 0.978109 14.2633 1.19244 14.049C1.40676 13.8347 1.69745 13.7143 2.00056 13.7143H12.2863C12.5894 13.7143 12.8801 13.8347 13.0944 14.049C13.3087 14.2633 13.4291 14.554 13.4291 14.8571C13.4291 15.1602 13.3087 15.4509 13.0944 15.6653C12.8801 15.8796 12.5894 16 12.2863 16H2.00056C1.69745 16 1.40676 15.8796 1.19244 15.6653C0.978109 15.4509 0.857702 15.1602 0.857702 14.8571Z" fill="currentColor"></path>
+                               </svg>
+                           </a>
+                       </div>
+                       <div class="col-xl-3 col-md-4 col-6">
+                           <a href="Default.aspx" class="logo-header">
+                               <img src="imgs/logo.png" alt="logo" class="logo">
+                           </a>
+                       </div>
+                       <div class="col-xl-6 tf-md-hidden">
+                           <nav class="box-navigation text-center">
+                               <ul class="box-nav-ul d-flex align-items-center justify-content-center gap-30">
+                                   <li class="menu-item">
+                                       <a href="Default.aspx" class="item-link">Home</a>
+
+                                   </li>
+                                   <li class="menu-item">
+                                       <a href="#" class="item-link">Products<i class="icon icon-arrow-down"></i></a>
+                                       <div class="sub-menu mega-menu">
+                                           <div class="container">
+                                               <div class="row">
+                                                  
+                                                    <div class="col-lg-3">
+    <div class="mega-menu-item">
+        <div class="menu-heading">Components</div>
+        <ul class="menu-list">
+            <li><a href="#" class="menu-link-text link">Autopilot (Indutrial Grade)</a></li>
+            <li><a href="#" class="menu-link-text link">Autopilot (Millitary Grade)</a></li>
+            <li><a href="#" class="menu-link-text link">GCS-Autopilot (Industrial)</a></li>
+            <li><a href="#" class="menu-link-text link">GCS-Autopilot (Millitary)</a></li>
+            <li><a href="#" class="menu-link-text link">Ground Data Terminal (GDT)</a></li>
+            <li><a href="#" class="menu-link-text link">Remote Video Terminal (RVT)</a></li>
+            <li><a href="#" class="menu-link-text link">DC DC Converter (Industrial Grade)</a></li>
+            <li><a href="#" class="menu-link-text link">DC DC Converter (Millitary Grade)</a></li>
+        </ul>
+    </div>
+</div> <div class="col-lg-2">
+    <div class="mega-menu-item">
+        <div class="menu-heading">UAV </div>
+        <ul class="menu-list">
+            <li><a href="#" class="menu-link-text link">Cheel</a></li>
+            <li><a href="#" class="menu-link-text link">Kavva (Indutrial Grade)</a></li>
+            <li><a href="#" class="menu-link-text link">Kavva (Millitary Grade)</a></li>
+            <li><a href="#" class="menu-link-text link">Patang (Industrial Grade)</a></li>
+            <li><a href="#" class="menu-link-text link">Patang (Millitary Grade)</a></li>
+            <li><a href="#" class="menu-link-text link">Kathil</a></li>
+            <li><a href="#" class="menu-link-text link">FPV Drone </a></li>
+
+        </ul>
+    </div>
+</div>
+                                                   <div class="col-lg-2">
+                                                       <div class="mega-menu-item">
+                                                           <div class="menu-heading">Payload</div>
+                                                           <ul class="menu-list">
+                                                               <li><a href="#" class="menu-link-text link">Owl (Industrial)</a></li>
+                                                               <li><a href="#" class="menu-link-text link">Owl (Millitary)</a></li>
+                                                              
+                                                           </ul>
+                                                       </div>
+                                                   </div>
+                                                  
+                                                   <div class="col-lg-5">
+                                                       <div class="collection-item hover-img">
+                                                           <div class="collection-inner">
+                                                               <a href="#" class="collection-image img-style">
+                                                                   <img class="lazyload" data-src="imgs/nav.png" src="imgs/nav.png" alt="collection-demo-1">
+                                                               </a>
+                                                               <div class="collection-content">
+                                                                   <a href="#" class="tf-btn hover-icon btn-xl collection-title fs-16"><span>Defence</span><i class="icon icon-arrow1-top-left"></i></a>
+
+                                                               </div>
+                                                           </div>
+                                                       </div>
+                                                   </div>
+                                                  
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </li>
+
+                                   <li class="menu-item position-relative">
+                                       <a href="#" class="item-link">Business<i class="icon icon-arrow-down"></i></a>
+                                       <div class="sub-menu submenu-default">
+                                           <ul class="menu-list">
+                                               <li>
+                                                   <a href="defence.aspx" class="menu-link-text link text_black-2">Defence</a>
+                                               </li>
+                                               <li>
+                                                   <a href="#" class="menu-link-text link text_black-2">Aerospace</a>
+                                               </li>
+
+                                               <li>
+                                                   <a href="#" class="menu-link-text link text_black-2">Industrial</a>
+                                               </li>
+                                               <li>
+                                                   <a href="#" class="menu-link-text link text_black-2">Customization</a>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                   </li>
+                                   <li class="menu-item position-relative">
+                                       <a href="about-us.aspx" class="item-link">About Us</a>
+
+                                   </li>
+                                   <li class="menu-item position-relative">
+                                       <a href="#" class="item-link">Resources<i class="icon icon-arrow-down"></i></a>
+                                       <div class="sub-menu submenu-default">
+                                           <ul class="menu-list">
+                                               <li>
+                                                   <a href="blogs.aspx" class="menu-link-text link text_black-2">Blogs</a>
+                                               </li>
+                                               <li>
+                                                   <a href="success-stories.aspx" class="menu-link-text link text_black-2">Success Stories</a>
+                                               </li>
+                                               <li>
+                                                   <a href="news-and-events.aspx" class="menu-link-text link text_black-2">News and Events </a>
+                                               </li>
+                                               <li>
+                                                   <a href="case-study.aspx" class="menu-link-text link text_black-2">Case Studies</a>
+                                               </li>
+                                               <li>
+                                                   <a href="technical-resource.aspx" class="menu-link-text link text_black-2">Technical Resources</a>
+                                               </li>
+                                               <li>
+                                                   <a href="question-and-answer.aspx" class="menu-link-text link text_black-2">Q & A</a>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                   </li>
+                                   <li class="menu-item"><a href="career.aspx" class="item-link">Career</a></li>
+                               </ul>
+                           </nav>
+                       </div>
+                       <div class="col-xl-3 col-md-4 col-3">
+                           <ul class="nav-icon d-flex justify-content-end align-items-center gap-20">
+                               <li class="nav-search"><a href="cart.aspx" class="nav-icon-item">
+                                   <img src="imgs/shopping-cart.png" width="20" /></a></li>
+                               <li class="nav-account"><a href="login.aspx" class="nav-icon-item new-btn "><i class="icon icon-account me-2"></i></a></li>
+                               <li><a href="speak-to-expert.aspx" class="fade-item fade-item-3 rounded-full btn-sm fs-12 tf-btn btn-fill animate-hover-btn radius-3" contenteditable="false" style="cursor: pointer;">
+                                   <div class="d-flex align-items-center">
+                                       <span>Speak To Expert</span>
+                                       <span class="icon ml-10 ms-2">
+                                           <img src="imgs/arrow-top-right.svg" alt="">
+                                       </span>
+                                   </div>
+                               </a></li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </header>
+            <!-- /Header -->
+            <!-- Slider -->
+            <section class="flat-spacing-11">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="wrap-sidebar-account">
+                                <ul class="my-account-nav">
+                                    <li><a href="my-account.aspx" class="my-account-nav-item  new-active1" contenteditable="false" style="cursor: pointer;">My Profile </a></li>
+                                    <li><a href="my-account-orders.aspx" class="my-account-nav-item new-active2" contenteditable="false" style="cursor: pointer;">Orders</a></li>
+                                    <li><a href="my-account-address.aspx" class="my-account-nav-item new-active3" contenteditable="false" style="cursor: pointer;">Address</a></li>
+                                    <li><a href="my-account-wishlist.aspx" class="my-account-nav-item new-active4" contenteditable="false" style="cursor: pointer;">Wishlist</a></li>
+                                    <li><a href="Default.aspx" class="my-account-nav-item" contenteditable="false" style="cursor: pointer;">Logout</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-9">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                <div class="btn-sidebar-account">
+            <button data-bs-toggle="offcanvas" data-bs-target="#mbAccount" aria-controls="offcanvas"><i class="icon icon-sidebar-2"></i></button>
+        </div>
+            <footer id="footer" class="footer background-black">
+                <div class="footer-wrap wow fadeIn" data-wow-delay="0s">
+                    <div class="footer-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-3 col-md-6 col-12">
+                                    <div class="footer-infor">
+
+                                        <ul>
+                                            <li>
+                                                <p>
+                                                    JKM Plaza, DynautonAerotropolis<br />
+                                                    55, KIADB Aerospace Park<br />
+                                                    Bangalore 562 149, India
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>Email: <a href="#">info@dynomatric.com</a></p>
+                                            </li>
+                                            <li>
+                                                <p>Phone: <a href="#">+91 80 2111 1223 / 2204 0535</a></p>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-md-6 col-12 footer-col-block">
+                                    <div class="footer-heading footer-heading-desktop">
+                                        <h6>Quick Links</h6>
+                                    </div>
+                                    <div class="footer-heading footer-heading-moblie">
+                                        <h6>Quick Links</h6>
+                                    </div>
+                                    <ul class="footer-menu-list tf-collapse-content">
+                                        <li>
+                                            <a href="#" class="footer-menu_item">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Career </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Terms &amp; Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">FAQ’s</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3 col-md-6 col-12 footer-col-block">
+                                    <div class="footer-heading footer-heading-desktop">
+                                        <h6>Business </h6>
+                                    </div>
+                                    <div class="footer-heading footer-heading-moblie">
+                                        <h6>Business</h6>
+                                    </div>
+                                    <ul class="footer-menu-list tf-collapse-content">
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Hydraulics</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Aerospace </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Homeland Security
+
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Medical</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Engineering Services
+
+
+
+
+
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3 col-md-6 col-12">
+                                    <div class="footer-newsletter footer-col-block">
+                                        <div class="footer-heading footer-heading-desktop">
+                                            <h6>Resources</h6>
+                                        </div>
+                                        <div class="footer-heading footer-heading-moblie">
+                                            <h6>Resources</h6>
+                                        </div>
+                                        <ul class="footer-menu-list tf-collapse-content">
+                                            <li>
+                                                <a href="#" class="footer-menu_item">Blogs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="footer-menu_item">Success Stories</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="footer-menu_item">News and Events </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="footer-menu_item">Case Study</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="footer-menu_item">Technical Resource</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="footer-menu_item">Q & A</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="footer-bottom-wrap d-flex gap-20 flex-wrap justify-content-between align-items-center">
+                                        <div class="footer-menu_item text-white">© 2024 Dynauton Systems. Website Design By <a href="https://nextwebi.com/" class="text-white" target="_blank">Nextwebi</a></div>
+                                        <div class="tf-payment">
+                                            <img src="images/payments/visa.png" alt="">
+                                            <img src="images/payments/img-1.png" alt="">
+                                            <img src="images/payments/img-2.png" alt="">
+                                            <img src="images/payments/img-3.png" alt="">
+                                            <img src="images/payments/img-4.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- /Footer -->
+
+        </div>
+
+        <!-- gotop -->
+        <div class="progress-wrap">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 286.138;"></path>
+            </svg>
+        </div>
+        <!-- /gotop -->
+
+        <!-- toolbar-bottom -->
+
+        <!-- /toolbar-bottom -->
+
+        <!-- modalDemo -->
+
+        <!-- /modalDemo -->
+
+
+
+
+        <!-- canvasSearch -->
+        <div class="offcanvas offcanvas-end canvas-search" id="canvasSearch">
+            <div class="canvas-wrapper">
+                <header class="tf-search-head">
+                    <div class="title fw-5">
+                        Search our site
+                    <div class="close">
+                        <span class="icon-close icon-close-popup" data-bs-dismiss="offcanvas" aria-label="Close"></span>
+                    </div>
+                    </div>
+                    <div class="tf-search-sticky">
+                        <div class="tf-mini-search-frm">
+                            <fieldset class="text">
+                                <input type="text" placeholder="Search" class="" name="text" tabindex="0" value="" aria-required="true" required="">
+                            </fieldset>
+                            <button class="" type="submit"><i class="icon-search"></i></button>
+                        </div>
+                    </div>
+                </header>
+
+            </div>
+        </div>
+        <!-- /canvasSearch -->
+
+        <!-- toolbarShopmb -->
+
+        <!-- /toolbarShopmb -->
+
+        <!-- modal login -->
+
+
+
+        <!-- /modal login -->
+
+        <!-- shoppingCart -->
+
+        <!-- /shoppingCart -->
+
+        <!-- modal compare -->
+
+        <!-- /modal compare -->
+
+        <!-- modal quick_add -->
+
+        <!-- /modal quick_add -->
+
+        <!-- modal quick_view -->
+
+        <!-- /modal quick_view -->
+
+        <!-- modal find_size -->
+
+        <!-- /modal find_size -->
+
+
+        <!-- Javascript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+        <script type="text/javascript" src="js/carousel.js"></script>
+        <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+
+        <script src="js/ScrollTrigger.min.js"></script>
+        <script src="js/ScrollSmoother.min.js"></script>
+        <script type="text/javascript" src="js/lazysize.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+        <script type="text/javascript" src="js/count-down.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript" src="js/multiple-modal.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script>
+            $(function () {
+                const cards = gsap.utils.toArray(".cards .card-item");
+                const stickDistance = 0;
+
+                // Ensure cards exist
+                if (cards.length) {
+                    const firstCardST = ScrollTrigger.create({
+                        trigger: cards[0],
+                        start: "center center",
+                    });
+
+                    const lastCardST = ScrollTrigger.create({
+                        trigger: cards[cards.length - 1],
+                        start: "bottom bottom",
+                    });
+
+                    cards.forEach((card, index) => {
+                        const scale = 1 - (cards.length - index) * 0.025;
+
+                        gsap.to(card, {
+                            scale: scale,
+                            scrollTrigger: {
+                                trigger: card,
+                                start: "center center",
+                                end: () => lastCardST.start + stickDistance,
+                                pin: true,
+                                pinSpacing: false,
+                                toggleActions: "restart none none reverse",
+                            },
+                        });
+                    });
+                }
+
+                if (window.innerWidth > 991) {
+                    gsap.timeline({
+                        scrollTrigger: {
+                            trigger: ".about-ma .bg-img",
+                            start: "top top",
+                            endTrigger: ".about-ma",
+                            end: "bottom bottom",
+                            pin: true,
+                            pinSpacing: false,
+                        },
+                    });
+                }
+
+                // Animate elements with data attributes
+                const elements = $('[data-gsap="fromOpacityScale"]');
+
+                elements.each(function () {
+                    const $ele = $(this);
+
+                    const scaleVal = parseFloat($ele.attr("data-gsap-scale")) || 0;
+                    const opacityVal = parseFloat($ele.attr("data-gsap-opacity")) || 0;
+                    const easeVal = $ele.attr("data-gsap-ease") || "power1.out";
+                    const durationVal = parseFloat($ele.attr("data-gsap-duration")) || 3;
+                    const delayVal = parseFloat($ele.attr("data-gsap-delay")) || 0;
+
+                    const anim = gsap.from(this, {
+                        autoAlpha: opacityVal,
+                        scale: scaleVal,
+                        ease: easeVal,
+                        duration: durationVal,
+                        delay: delayVal,
+                    });
+
+                    const startVal = $ele.attr("data-gsap-start") || "top bottom";
+                    const endVal = $ele.attr("data-gsap-end") || "center 70%";
+                    const scrubVal = parseFloat($ele.attr("data-gsap-scrub")) || 2;
+                    const onceVal = $ele.attr("data-gsap-once") === "true";
+                    const immediateRenderVal = $ele.attr("data-gsap-immediaterender") === "true";
+                    const markersVal = $ele.attr("data-gsap-markers") === "true";
+
+                    ScrollTrigger.create({
+                        animation: anim,
+                        trigger: this,
+                        start: startVal,
+                        end: endVal,
+                        scrub: scrubVal,
+                        once: onceVal,
+                        immediateRender: immediateRenderVal,
+                        markers: markersVal,
+                    });
+                });
+            });
+        </script>
+        <script>
+            $(function () {
+                var width = $(window).width();
+                if (width > 991) {
+                    /* ===============================  scroll  =============================== */
+
+                    gsap.registerPlugin(ScrollTrigger);
+
+                    let sections = gsap.utils.toArray(".panel");
+
+                    gsap.to(sections, {
+                        xPercent: -100 * (sections.length - 1),
+                        ease: "none",
+                        scrollTrigger: {
+                            trigger: ".thecontainer",
+                            pin: true,
+                            scrub: 1,
+                            // snap: 1 / (sections.length - 1),
+                            end: () =>
+                                "+=" + document.querySelector(".thecontainer").offsetWidth,
+                        },
+                    });
+                }
+            });
+        </script>
+        <script>
+            var swiper = new Swiper('.tf-sw-slideshow', {
+                loop: true,
+
+                autoplay: {
+                    delay: 1000,
+                    disableOnInteraction: false,
+                },
+                speed: 1000,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true, // Makes pagination dots clickable
+                },
+            });
+</script>
+    </form>
+</body>
+</html>

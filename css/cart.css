@@ -1,0 +1,98 @@
+﻿.cart-title {
+    font-weight: 600;
+}
+
+.tf-cart-totals-discounts h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tf-cart-totals-discounts h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.tf-table-page-cart tr {
+    border-bottom: 1px dashed #e1e1e1;
+}
+
+.tf-page-title {
+    padding: 5px 0px;
+}
+
+.tf-table-page-cart th {
+    text-align: center;
+}
+
+.cart-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tf-table-page-cart td {
+    padding: 10px 10px !important;
+    text-align: left;
+}
+
+.tf-cart-item .cart-quantity, .tf-cart-item .cart-total, .tf-cart-item .cart-price {
+    align-items: start;
+    justify-content: start;
+}
+
+.tf-table-page-cart th:last-child {
+    text-align: start;
+}
+
+.tf-table-page-cart th {
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--line);
+    color: var(--main);
+    text-align: left;
+    background: #f1f1f1;
+    padding: 18px 10px;
+}
+
+.tf-table-page-cart td:last-child {
+    text-align: end;
+    padding-right: 10px;
+}
+
+.tf-table-page-cart td:first-child {
+    text-align: start;
+    padding-left: 10px;
+}
+
+.tf-cart-totals-discounts h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+span.total-value.fw-normal {
+    font-size: 16px !important;
+}
+
+.tf-cart-totals-discounts h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.tf-page-cart-checkout .tf-cart-totals-discounts {
+    margin-top: 18px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .tf-page-cart-checkout .tf-cart-totals-discounts h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .tf-page-cart-checkout .tf-cart-totals-discounts .total-value {
+        font-size: 16px !important;
+        line-height: 24px;
+    }

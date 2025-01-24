@@ -1,0 +1,68 @@
+﻿body {
+    background-color: unset !important;
+}
+
+.style-2 {
+    background-image: url('../imgs/career/b2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.tf-page-title.style-2 {
+    padding: 100px 0px;
+}
+
+.cont-info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+.cont-info p {
+    color: #000;
+    text-align: left;
+}
+
+.cont-info strong {
+    color: #000;
+    font-size: 17px;
+}
+
+.cont-info {
+    padding: 20px 0px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: start;
+}
+
+    .cont-info img {
+        height: 64px;
+        width: 64px;
+    }
+
+.sectio-padding {
+    padding: 60px 0px;
+}
+
+.cont-info {
+    padding: 20px 0px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #fff;
+}
+
+
+.form-contact {
+    border: 1px solid #eee;
+    padding: 60px 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    height: 100%;
+}
