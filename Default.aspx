@@ -12,7 +12,7 @@
         <div id="smooth-content">
             <!-- /Header -->
             <!-- Slider -->
-            <section class="home-banner  tf-slideshow slider-effect-fade position-relative">
+            <section class="home-banner  tf-slideshow slider-effect-fade position-relative d-lg-block d-none">
                 <div dir="ltr" class="swiper tf-sw-slideshow" data-preview="1"
                     data-tablet="1"
                     data-mobile="1"
@@ -23,18 +23,18 @@
                     data-delay="500"
                     data-speed="500">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide d-lg-block d-none" lazy="true">
+                        <div class="swiper-slide " lazy="true">
                             <div class="container">
                                 <div class="home-slider-content">
-                                   <%-- <h1 class="fade-item fade-item-2">Securing Nations with 
+                                    <%-- <h1 class="fade-item fade-item-2">Securing Nations with 
                                         <br />
                                         <span>Sky-High Intelligence</span></h1>--%>
-<%--                                    <a href="#" class="fade-item fade-item-3 rounded-full tf-btn btn-fill animate-hover-btn btn-xl radius-3"><span>Know More</span><i class="icon icon-arrow-right"></i></a>--%>
+                                    <%--                                    <a href="#" class="fade-item fade-item-3 rounded-full tf-btn btn-fill animate-hover-btn btn-xl radius-3"><span>Know More</span><i class="icon icon-arrow-right"></i></a>--%>
                                     <img class="lazyload" data-src="imgs/mob/Securing.png" src="imgs/mob/Securing.png" alt="fashion-slideshow-01">
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide d-lg-block d-none" lazy="true">
+                        <div class="swiper-slide" lazy="true">
                             <div class="container">
                                 <div class="home-slider-content dark-title">
                                     <%--<h1 class="fade-item fade-item-2">Drones for <br /> <span>DEFENCE</span></h1>
@@ -43,10 +43,32 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide d-lg-none d-block" lazy="true">
+
+                    </div>
+
+                </div>
+                <div class="wrap-pagination">
+                    <div class="container">
+                        <div class="sw-dots sw-pagination-slider justify-content-center"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="home-banner  tf-slideshow slider-effect-fade position-relative d-lg-none d-block">
+                <div dir="ltr" class="swiper tf-sw-slideshow" data-preview="1"
+                    data-tablet="1"
+                    data-mobile="1"
+                    data-centered="false"
+                    data-space="0"
+                    data-loop="true"
+                    data-auto-play="true"
+                    data-delay="500"
+                    data-speed="500">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide " lazy="true">
                             <img src="imgs/mob/1.png" class="w-100" />
                         </div>
-                        <div class="swiper-slide d-lg-none d-block" lazy="true">
+                        <div class="swiper-slide" lazy="true">
                             <img src="imgs/mob/2.png" class="w-100" />
                         </div>
                     </div>
@@ -802,7 +824,7 @@
                                             <div class="bottom wow fadeInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
                                                 <h5 class="heading text-white">UAV Community
                                                 </h5>
-                                                <button  class="tf-btn btn-line btn-line-light collection-other-link fw-6"><span>Learn More</span><i class="icon icon-arrow1-top-left"></i></button>
+                                                <button class="tf-btn btn-line btn-line-light collection-other-link fw-6"><span>Learn More</span><i class="icon icon-arrow1-top-left"></i></button>
                                             </div>
                                         </div>
                                     </a>
