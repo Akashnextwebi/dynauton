@@ -29,8 +29,8 @@
             <div class="row justify-content-center">
                 <div class=" col-lg-8 col-12">
                     <div class="form-content text-center">
-                        <div class="heading text-center text-white">Welcome to the <br /><span class="theme-red">DynautonTechnologies Forum </span><br /> Innovating the Future of <span class="theme-red">Aerospace</span></div>
-                        <p class="text-white mx-auto w-75">Join a thriving community of innovators, experts, and enthusiasts at DynautonTechnologies. Explore the latest trends in drones and aerospace, connect with industry professionals, and share your insights on cutting-edge applications in defense, agriculture, and industrial sectors. Together, let's shape the future of technology and unlock the limitless possibilities of the skies.</p>
+                        <div class="heading text-center text-white">Welcome to the <br /><span class="theme-red">Dynauton System Forum </span><br /> Innovating the Future of <span class="theme-red">Aerospace</span></div>
+                        <p class="text-white mx-auto w-75">Join a thriving community of innovators, experts, and enthusiasts at Dynauton System. Explore the latest trends in drones and aerospace, connect with industry professionals, and share your insights on cutting-edge applications in defense, agriculture, and industrial sectors. Together, let's shape the future of technology and unlock the limitless possibilities of the skies.</p>
                         <a href="#login" data-bs-toggle="modal" class="fade-item fade-item-3 bg-white text-dark tf-btn btn-fill animate-hover-btn radius-60" contenteditable="false" style="cursor: pointer;"><span>New Post</span><i class="icon icon-arrow-right ms-1"></i></a>
                     </div>
                 </div>

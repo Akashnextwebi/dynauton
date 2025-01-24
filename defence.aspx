@@ -33,7 +33,7 @@
                                 DEFENCE DRONE
                             </div>
                             <p class="description">
-                                DynautonTechnologies leads the nation in delivering state-of-the-art drone solutions designed for precision, durability, and performance. Trusted by defense organizations, our cutting-edge technologies empower surveillance, reconnaissance, and combat operations with unmatched reliability.
+                                Dynauton System leads the nation in delivering state-of-the-art drone solutions designed for precision, durability, and performance. Trusted by defense organizations, our cutting-edge technologies empower surveillance, reconnaissance, and combat operations with unmatched reliability.
 
 
 
@@ -42,7 +42,7 @@
 
                             </p>
                             <div class="key-highlights">
-                                <h2>Key Highlights of DynautonTechnologies</h2>
+                                <h2>Key Highlights of Dynauton System</h2>
                                 <ul>
                                     <li><strong>State-of-the-Art Drone Solutions:</strong> Precision-engineered for durability and superior performance in defense operations.</li>
                                     <li><strong>Trusted by Defense Organizations:</strong> A proven partner delivering reliable technologies for mission-critical needs.</li>
@@ -61,7 +61,7 @@
     <section class="bg-dark why-choose-us">
         <div class="container">
             <div class="flat-title  text-center px-0">
-                <span class="title text-white wow fadeInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">Why Choose DynautonTechnologies for Defense?
+                <span class="title text-white wow fadeInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">Why Choose Dynauton System for Defense?
                 </span>
 
             </div>

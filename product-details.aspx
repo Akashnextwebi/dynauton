@@ -1,6 +1,18 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="./MasterPage.master" AutoEventWireup="true" CodeFile="product-details.aspx.cs" Inherits="product_details" %>
+﻿
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+
+<!DOCTYPE html>
+
+<html>
+<head><meta charset="utf-8" /><title>
+	Dynauton Systems
+</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap" rel="stylesheet" />
+    <!-- font -->
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="fonts/font-icons.css" /><link rel="stylesheet" href="css/bootstrap.min.css" /><link rel="stylesheet" href="css/swiper-bundle.min.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css" integrity="sha512-DKdRaC0QGJ/kjx0U0TtJNCamKnN4l+wsMdION3GG0WVK6hIoJ1UPHRHeXNiGsXdrmq19JJxgIubb/Z7Og2qJww==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="css/animate.css" /><link rel="stylesheet" type="text/css" href="css/styles.css" /><link rel="stylesheet" type="text/css" href="css/custom.css" /><link href="css/responsive.css" rel="stylesheet" /><link href="css/zoom.css" rel="stylesheet" />
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="imgs/fab.jpg" /><link rel="apple-touch-icon-precomposed" href="imgs/fab.jpg" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
     <style>
@@ -300,25 +312,186 @@
                     top: 5px;
                     transform: rotate(45deg);
                 }
-
-        .new-btn {
-            width: max-content;
-        }
- .icon {
-    width: 8px;
-    color: #000;
-}
- .box-icon.w_46 {
-    width: 46px;
-    display: flex
-;
-    height: 46px;
-    justify-content: center;
-    align-items: center;
-}
+                .new-btn{
+                    width:max-content;
+                }
     </style>
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+</head>
+<body>
+    <form method="post" action="./product-details.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY1NDU2MTA1Mg8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBZGQOvsCg3stSA/0o2U+TTCFUirUwsw==" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="99674F9E" />
+</div>
+        <!-- /RTL  -->
+        <!-- preload -->
+        <div class="preload preload-container">
+            <div class="preload-logo">
+                <div class="spinner"></div>
+            </div>
+        </div>
+        <div id="wrapper">
+            <!-- Top bar -->
+
+            <!-- /Top bar -->
+            <!-- Header -->
+            <header id="header" class="header-default">
+                <div class="px_15 lg-px_40">
+                    <div class="row wrapper-header align-items-center">
+                        <div class="col-md-4 col-2 tf-lg-hidden">
+                            <a href="#mobileMenu" data-bs-toggle="offcanvas" aria-controls="offcanvasLeft">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 16" fill="none">
+                                    <path d="M2.00056 2.28571H16.8577C17.1608 2.28571 17.4515 2.16531 17.6658 1.95098C17.8802 1.73665 18.0006 1.44596 18.0006 1.14286C18.0006 0.839753 17.8802 0.549063 17.6658 0.334735C17.4515 0.120408 17.1608 0 16.8577 0H2.00056C1.69745 0 1.40676 0.120408 1.19244 0.334735C0.978109 0.549063 0.857702 0.839753 0.857702 1.14286C0.857702 1.44596 0.978109 1.73665 1.19244 1.95098C1.40676 2.16531 1.69745 2.28571 2.00056 2.28571ZM0.857702 8C0.857702 7.6969 0.978109 7.40621 1.19244 7.19188C1.40676 6.97755 1.69745 6.85714 2.00056 6.85714H22.572C22.8751 6.85714 23.1658 6.97755 23.3801 7.19188C23.5944 7.40621 23.7148 7.6969 23.7148 8C23.7148 8.30311 23.5944 8.59379 23.3801 8.80812C23.1658 9.02245 22.8751 9.14286 22.572 9.14286H2.00056C1.69745 9.14286 1.40676 9.02245 1.19244 8.80812C0.978109 8.59379 0.857702 8.30311 0.857702 8ZM0.857702 14.8571C0.857702 14.554 0.978109 14.2633 1.19244 14.049C1.40676 13.8347 1.69745 13.7143 2.00056 13.7143H12.2863C12.5894 13.7143 12.8801 13.8347 13.0944 14.049C13.3087 14.2633 13.4291 14.554 13.4291 14.8571C13.4291 15.1602 13.3087 15.4509 13.0944 15.6653C12.8801 15.8796 12.5894 16 12.2863 16H2.00056C1.69745 16 1.40676 15.8796 1.19244 15.6653C0.978109 15.4509 0.857702 15.1602 0.857702 14.8571Z" fill="currentColor"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-xl-3 col-md-4 col-5 new-logo">
+                            <a href="Default.aspx" class="logo-header">
+                                <img src="imgs/logo.png" alt="logo" class="logo">
+                            </a>
+                        </div>
+                        <div class="col-xl-6 tf-md-hidden">
+                            <nav class="box-navigation text-center">
+                                <ul class="box-nav-ul d-flex align-items-center justify-content-center gap-30">
+                                    <li class="menu-item">
+                                        <a href="Default.aspx" class="item-link">Home</a>
+
+                                    </li>
+                                    
+                                     <li class="menu-item">
+                                    <a href="#" class="item-link">Products<i class="icon icon-arrow-down"></i></a>
+                                    <div class="sub-menu mega-menu">
+                                        <div class="container">
+                                            <div class="row-demo">
+                                                <div class="demo-item">
+                                                    <a href="product-details.aspx">
+                                                        <div class="demo-image position-relative">
+                                                            <img class="lazyload" data-src="imgs/nav/1.png" src="imgs/nav/1.png" alt="Cheel">
+                                                          
+                                                        </div>
+                                                        <span class="demo-name">Cheel</span>
+                                                    </a>
+                                                </div>
+                                                <div class="demo-item">
+                                                    <a href="product-details.aspx">
+                                                        <div class="demo-image position-relative">
+                                                            <img class="lazyload" data-src="imgs/nav/2.png" src="imgs/nav/2.png" alt="Owl">
+                                                          
+                                                        </div>
+                                                        <span class="demo-name">Owl</span>
+                                                    </a>
+                                                </div>
+                                                <div class="demo-item">
+                                                    <a href="product-details.aspx">
+                                                        <div class="demo-image position-relative">
+                                                            <img class="lazyload" data-src="imgs/nav/3.png" src="imgs/nav/3.png" alt="Kaatil">
+                                                         
+                                                        </div>
+                                                        <span class="demo-name">Kaatil</span>
+                                                    </a>
+                                                </div>
+                                                <div class="demo-item">
+                                                    <a href="product-details.aspx">
+                                                        <div class="demo-image">
+                                                            <img class="lazyload" data-src="imgs/nav/4.png" src="imgs/nav/4.png" alt="Kavaa">
+                                                        </div>
+                                                        <span class="demo-name">Kavaa</span>
+                                                    </a>
+                                                </div>
+                                                <div class="demo-item">
+                                                    <a href="product-details.aspx">
+                                                        <div class="demo-image">
+                                                            <img class="lazyload" data-src="imgs/nav/5.png" src="imgs/nav/5.png" alt="Patang">
+                                                        </div>
+                                                        <span class="demo-name">Patang</span>
+                                                    </a>
+                                                </div>
+                                               
+                                             
+                                            </div>
+               <div class="text-center view-all-demo">
+                                                <a href="product-listing.aspx"  class="tf-btn  btn-fill rounded-pill  animate-hover-btn fw-6"><span>View all</span><i class="icon icon-arrow-left"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                    <li class="menu-item position-relative">
+                                        <a href="#" class="item-link">Business<i class="icon icon-arrow-down"></i></a>
+                                        <div class="sub-menu submenu-default">
+                                            <ul class="menu-list">
+                                                <li>
+                                                    <a href="defence.aspx" class="menu-link-text link text_black-2">Defence</a>
+                                                </li>
+                                                <li>
+                                                    <a href="aerospace.aspx" class="menu-link-text link text_black-2">Aerospace</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="Industrial.aspx" class="menu-link-text link text_black-2">Industrial</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Customization.aspx" class="menu-link-text link text_black-2">Customization</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item position-relative">
+                                        <a href="about-us.aspx" class="item-link">About Us</a>
+
+                                    </li>
+                                    <li class="menu-item position-relative">
+                                        <a href="#" class="item-link">Resources<i class="icon icon-arrow-down"></i></a>
+                                        <div class="sub-menu submenu-default">
+                                            <ul class="menu-list">
+                                                <li>
+                                                    <a href="blogs.aspx" class="menu-link-text link text_black-2">Blogs</a>
+                                                </li>
+                                                <li>
+                                                    <a href="success-stories.aspx" class="menu-link-text link text_black-2">Success Stories</a>
+                                                </li>
+                                                <li>
+                                                    <a href="news-and-events.aspx" class="menu-link-text link text_black-2">News and Events </a>
+                                                </li>
+                                                <li>
+                                                    <a href="case-study.aspx" class="menu-link-text link text_black-2">Case Studies</a>
+                                                </li>
+                                                <li>
+                                                    <a href="technical-resource.aspx" class="menu-link-text link text_black-2">Technical Resources</a>
+                                                </li>
+                                                <li>
+                                                    <a href="question-and-answer.aspx" class="menu-link-text link text_black-2">Q & A</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item"><a href="career.aspx" class="item-link">Career</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-xl-3 col-md-4 col-5">
+                            <ul class="nav-icon d-flex justify-content-end align-items-center gap-20">
+
+                                <li><a href="speak-to-expert.aspx" class="fade-item fade-item-3 new-sm-btn rounded-full btn-sm fs-12 tf-btn btn-fill animate-hover-btn radius-3" contenteditable="false" style="cursor: pointer;">
+                                    <div class="d-flex align-items-center">
+                                        <span>Speak To Expert</span>
+                                        <span class="icon ml-10 ms-2">
+                                            <img src="imgs/arrow-top-right.svg" alt="">
+                                        </span>
+                                    </div>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- /Header -->
+            <!-- Slider -->
+            <div>
+                
     <div class="tf-page-title">
         <div class="container">
             <ul class="breadcrumbs d-flex align-items-center justify-content-start">
@@ -340,219 +513,7 @@
     </div>
     <!-- /breadcrumb -->
     <!-- default -->
-    <section class="flat-spacing-4 ">
-        <div class="tf-main-product section-image-zoom">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="tf-product-info-title text-center">
-                            <div class="tag-new">
-                                <span>Defence</span>
-                            </div>
-                            <h4 class="fw-bold mb-3">OWL 
-                                    </h4>
-                            <p>
-                                Owl a state-of-the-art payload for day/night surveillance applications for platforms like UAV, Drones, Helicopter etc.  It includes a EO camera with Full HD video and 30X optical zoom along with high performance MWIR camera with 10x optical zoom to detail even a miniature object over super long range.   
-                                   
-                            </p>
-                        </div>
-                        <div class="tf-slideshow  justify-content-center slider-effect-fade slider-accessories">
-                            <div dir="ltr" class="swiper tf-sw-slideshow" data-preview="1.6" data-tablet="1" data-mobile="1" data-centered="true" data-space="30" data-loop="true" data-auto-play="false" data-delay="2000" data-speed="1000">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide" lazy="true">
-                                        <div class="wrap-slider">
-                                            <img src="imgs/pro3/1.png" alt="fashion-slideshow">
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide" lazy="true">
-                                        <div class="wrap-slider">
-                                            <img src="imgs/pro3/1.png" alt="fashion-slideshow">
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide" lazy="true">
-                                        <div class="wrap-slider">
-                                            <img src="imgs/pro3/1.png" alt="fashion-slideshow">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container wrap-navigation">
-                                <div class="nav-sw style-white nav-next-slider navigation-next-slider box-icon w_46 round"><span class="icon icon-arrow-left"></span></div>
-                                <div class="nav-sw style-white nav-prev-slider navigation-prev-slider box-icon w_46 round"><span class="icon icon-arrow-right"></span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row d-none">
-                    <div class="col-md-6">
-                        <div class="tf-product-media-wrap thumbs-bottom sticky-top">
-                            <div class="thumbs-slider">
-                                <div dir="ltr" class="swiper tf-product-media-main" id="gallery-swiper-started">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide" data-color="brown">
-                                            <a href="imgs/pro1/1.png" data-lightbox="image-1" class="item">
-                                                <img class=" lazyload" data-zoom="imgs/pro1/1.png" data-src="imgs/pro1/1.png" src="imgs/pro1/1.png" alt="img-product">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide" data-color="brown">
-                                            <a href="imgs/pro1/2.png" data-lightbox="image-1" class="item">
-                                                <img class=" lazyload" data-zoom="imgs/pro1/2.png" data-src="imgs/pro1/2.png" src="imgs/pro1/1.png" alt="img-product">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide" data-color="brown">
-                                            <a href="imgs/pro1/3.png" data-lightbox="image-1" class="item">
-                                                <img class=" lazyload" data-zoom="imgs/pro1/3.png" data-src="imgs/pro1/3.png" src="imgs/pro1/1.png" alt="img-product">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide" data-color="brown">
-                                            <a href="imgs/pro1/4.png" data-lightbox="image-1" class="item">
-                                                <img class=" lazyload" data-zoom="imgs/pro1/4.png" data-src="imgs/pro1/4.png" src="imgs/pro1/1.png" alt="img-product">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide" data-color="brown">
-                                            <a href="imgs/pro1/5.png" data-lightbox="image-1" class="item">
-                                                <img class=" lazyload" data-zoom="imgs/pro1/5.png" data-src="imgs/pro1/5.png" src="imgs/pro1/1.png" alt="img-product">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide" data-color="brown">
-                                            <a href="imgs/pro1/6.png" data-lightbox="image-1" class="item">
-                                                <img class=" lazyload" data-zoom="imgs/pro1/6.png" data-src="imgs/pro1/6.png" src="imgs/pro1/1.png" alt="img-product">
-                                            </a>
-                                        </div>
-                                        <div class="swiper-slide" data-color="brown">
-                                            <a href="imgs/pro1/.png" data-lightbox="image-1" class="item">
-                                                <img class=" lazyload" data-zoom="imgs/pro1/7.png" data-src="imgs/pro1/7.png" src="imgs/pro1/1.png" alt="img-product">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-button-next button-style-arrow thumbs-next"></div>
-                                    <div class="swiper-button-prev button-style-arrow thumbs-prev"></div>
-                                </div>
-                                <div dir="ltr" class="swiper tf-product-media-thumbs other-image-zoom d-none" data-direction="horizontal">
-                                    <div class="swiper-wrapper stagger-wrap">
-                                        <div class="swiper-slide stagger-item" data-color="brown">
-                                            <div class="item">
-                                                <img class="lazyload" data-src="imgs/pro1/1.png" src="imgs/pro1/1.png" alt="img-product">
-                                            </div>
-                                        </div>
-
-                                        <div class="swiper-slide stagger-item" data-color="brown">
-                                            <div class="item">
-                                                <img class="lazyload" data-src="imgs/pro1/2.png" src="imgs/pro1/2.png" alt="img-product">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide stagger-item" data-color="brown">
-                                            <div class="item">
-                                                <img class="lazyload" data-src="imgs/pro1/3.png" src="imgs/pro1/3.png" alt="img-product">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide stagger-item" data-color="brown">
-                                            <div class="item">
-                                                <img class="lazyload" data-src="imgs/pro1/4.png" src="imgs/pro1/4.png" alt="img-product">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide stagger-item" data-color="brown">
-                                            <div class="item">
-                                                <img class="lazyload" data-src="imgs/pro1/5.png" src="imgs/pro1/5.png" alt="img-product">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide stagger-item" data-color="brown">
-                                            <div class="item">
-                                                <img class="lazyload" data-src="imgs/pro1/6.png" src="imgs/pro1/6.png" alt="img-product">
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide stagger-item" data-color="brown">
-                                            <div class="item">
-                                                <img class="lazyload" data-src="imgs/pro1/7.png" src="imgs/pro1/7.png" alt="img-product">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6  new-sticy">
-                        <div class="tf-product-info-wrap ">
-                            <div class="tf-zoom-main"></div>
-                            <div class="tf-product-info-list other-image-zoom ">
-                                <div class="tf-product-info-title">
-                                    <div class="tag-new">
-                                        <span>Defence</span>
-                                    </div>
-                                    <h4 class="fw-bold mb-3">OWL 
-                                    </h4>
-                                    <p>
-                                        Owl a state-of-the-art payload for day/night surveillance applications for platforms like UAV, Drones, Helicopter etc.  It includes a EO camera with Full HD video and 30X optical zoom along with high performance MWIR camera with 10x optical zoom to detail even a miniature object over super long range.   
-                                    </p>
-                                </div>
-                                <div class="tf-product-info-badges">
-                                    <div class="badges">In Stock </div>
-
-                                </div>
-                                <%--   <div class="tf-product-info-price">
-                                    <div class="price-on-sale">Rs.6,799.00</div>
-                                    <div class="compare-at-price">Rs. 14,000.00</div>
-                                    <div class="badges-on-sale"><span>20</span>% OFF</div>
-                                </div>--%>
-
-
-                                <%-- <div class="new-flex">
-                                    <div class="tf-product-info-quantity">
-                                        <div class="wg-quantity">
-                                            <span class="btn-quantity btn-decrease">-</span>
-                                            <input type="text" class="quantity-product" name="number" value="1">
-                                            <span class="btn-quantity btn-increase">+</span>
-                                        </div>
-
-                                        <a href="javascript:void(0);" class="tf-product-btn-wishlist hover-tooltip box-icon bg_white wishlist btn-icon-action">
-                                            <span class="icon icon-heart"></span>
-                                            <span class="tooltip">Add to Wishlist</span>
-                                            <span class="icon icon-delete"></span>
-                                        </a>
-                                    </div>
-
-                                </div>--%>
-                                <div class="new-flex ">
-                                    <div class="y">
-
-                                        <a href="#login" data-bs-toggle="modal" class="tf-btn  new-btn btn-fill1 justify-content-center fw-6 fs-16 flex-grow-1  rounded-pill animate-hover-btn btn-add-to-cart">Speak to an Expert</a>
-                                        <%--                                        <a href="javascript:void(0);" class="tf-btn btn-fill justify-content-center fw-6 fs-16 flex-grow-1 rounded-pill animate-hover-btn btn-add-to-cart"><i class="icon icon-heart me-2"></i>Add to Wishlist</a>--%>
-                                    </div>
-
-                                </div>
-                                <div class="tf-product-info-delivery-return">
-                                    <div class="row">
-                                        <div class="col-xl-6 col-12">
-                                            <div class="tf-product-delivery">
-                                                <div class="icon">
-                                                    <i class="icon-delivery-time"></i>
-                                                </div>
-                                                <p>
-                                                    Free & Fast Shipping
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-6 col-12">
-                                            <div class="tf-product-delivery mb-0">
-                                                <div class="icon">
-                                                    <i class="icon-return-order"></i>
-                                                </div>
-                                                <p>
-                                                    Make in India Drones
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
+    
     <!-- /default -->
     <section class="flat-spacing-12  bg-dark">
         <div class="container">
@@ -803,5 +764,376 @@
 
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.6/ScrollTrigger.min.js" integrity="sha512-+LXqbM6YLduaaxq6kNcjMsQgZQUTdZp7FTaArWYFt1nxyFKlQSMdIF/WQ/VgsReERwRD8w/9H9cahFx25UDd+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</asp:Content>
 
+            </div>
+            <footer id="footer" class="footer background-black">
+                <div class="footer-wrap wow fadeIn" data-wow-delay="0s">
+                    <div class="footer-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-3 col-md-6 col-12">
+                                    <div class="footer-infor">
+
+                                        <ul>
+                                            <li>
+                                                <p>
+                                                    JKM Plaza, DynautonAerotropolis<br />
+                                                    55, KIADB Aerospace Park<br />
+                                                    Bangalore 562 149, India
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>Email: <a href="#">info@dynomatric.com</a></p>
+                                            </li>
+                                            <li>
+                                                <p>Phone: <a href="#">+91 80 2111 1223 / 2204 0535</a></p>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-md-6 col-12 footer-col-block">
+                                    <div class="footer-heading footer-heading-desktop">
+                                        <h6>Quick Links</h6>
+                                    </div>
+                                    <div class="footer-heading footer-heading-moblie">
+                                        <h6>Quick Links</h6>
+                                    </div>
+                                    <ul class="footer-menu-list tf-collapse-content">
+                                        <li>
+                                            <a href="about-us.aspx" class="footer-menu_item">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="career.aspx" class="footer-menu_item">Career </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Terms &amp; Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">FAQ’s</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3 col-md-6 col-12 footer-col-block">
+                                    <div class="footer-heading footer-heading-desktop">
+                                        <h6>Business </h6>
+                                    </div>
+                                    <div class="footer-heading footer-heading-moblie">
+                                        <h6>Business</h6>
+                                    </div>
+                                    <ul class="footer-menu-list tf-collapse-content">
+
+                                        <li>
+                                            <a href="defence.aspx" class="footer-menu_item">Defence </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Aerospace
+
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Industrial</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="footer-menu_item">Customization
+
+
+
+
+
+
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3 col-md-6 col-12">
+                                    <div class="footer-newsletter footer-col-block">
+                                        <div class="footer-heading footer-heading-desktop">
+                                            <h6>Resources</h6>
+                                        </div>
+                                        <div class="footer-heading footer-heading-moblie">
+                                            <h6>Resources</h6>
+                                        </div>
+                                        <ul class="footer-menu-list tf-collapse-content">
+                                            <li>
+                                                <a href="#" class="footer-menu_item">Blogs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="footer-menu_item">Success Stories</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="footer-menu_item">News and Events </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="footer-menu_item">Case Study</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="footer-menu_item">Technical Resource</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="footer-menu_item">Q & A</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="footer-bottom-wrap d-flex gap-20 flex-wrap justify-content-between align-items-center">
+                                        <div class="footer-menu_item text-white">© 2025 Dynauton Systems. Website Design By <a href="https://nextwebi.com/" class="text-white" target="_blank">Nextwebi</a></div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- /Footer -->
+
+        </div>
+
+        <!-- gotop -->
+        <div class="progress-wrap">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 286.138;"></path>
+            </svg>
+        </div>
+        <!-- /gotop -->
+
+        <!-- toolbar-bottom -->
+
+        <!-- /toolbar-bottom -->
+
+        <!-- modalDemo -->
+
+        <!-- /modalDemo -->
+
+
+
+
+        <!-- canvasSearch -->
+        <div class="offcanvas offcanvas-end canvas-search" id="canvasSearch">
+            <div class="canvas-wrapper">
+                <header class="tf-search-head">
+                    <div class="title fw-5">
+                        Search our site
+                    <div class="close">
+                        <span class="icon-close icon-close-popup" data-bs-dismiss="offcanvas" aria-label="Close"></span>
+                    </div>
+                    </div>
+                    <div class="tf-search-sticky">
+                        <div class="tf-mini-search-frm">
+                            <fieldset class="text">
+                                <input type="text" placeholder="Search" class="" name="text" tabindex="0" value="" aria-required="true" required="">
+                            </fieldset>
+                            <button class="" type="submit"><i class="icon-search"></i></button>
+                        </div>
+                    </div>
+                </header>
+
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
+            <span class="icon-close icon-close-popup" data-bs-dismiss="offcanvas" aria-label="Close"></span>
+            <div class="mb-canvas-content">
+                <div class="mb-body">
+                    <ul class="nav-ul-mb" id="wrapper-menu-navigation">
+                        <li class="nav-mb-item">
+                            <a href="Default.aspx" class=" mb-menu-link current"  >
+                                <span>Home</span>
+                            </a>
+
+
+                        </li>
+                        <li class="nav-mb-item">
+                            <a href="about-us.aspx" class=" mb-menu-link current"  >
+                                <span>About Us</span>
+                            </a>
+
+
+                        </li>
+                        
+                           <li class="nav-mb-item">
+       <a href="#dropdown-menu-two" class="collapsed mb-menu-link current" data-bs-toggle="collapse" aria-expanded="true" aria-controls="dropdown-menu-two">
+           <span>Products
+           </span>
+           <span class="btn-open-sub"></span>
+       </a>
+       <div id="dropdown-menu-two" class="collapse">
+           <ul class="sub-nav-menu">
+               <li><a href="product-details.aspx" class="sub-nav-link">Cheel</a></li>
+               <li><a href="product-details.aspx" class="sub-nav-link">Owl</a></li>
+               <li><a href="product-details.aspx" class="sub-nav-link">Kaatil</a></li>
+               <li><a href="product-details.aspx" class="sub-nav-link">Kavaa</a></li>
+                              <li><a href="product-details.aspx" class="sub-nav-link">Patang</a></li>
+
+           </ul>
+       </div>
+
+   </li>
+
+                        <li class="nav-mb-item">
+                            <a href="#dropdown-menu-five" class="collapsed mb-menu-link current" data-bs-toggle="collapse" aria-expanded="true" aria-controls="dropdown-menu-five">
+                                <span>Business
+                                </span>
+                                <span class="btn-open-sub"></span>
+                            </a>
+                            <div id="dropdown-menu-five" class="collapse">
+                                <ul class="sub-nav-menu">
+                                    <li><a href="defence.aspx" class="sub-nav-link">Defence</a></li>
+                                    <li><a href="#" class="sub-nav-link">Aerospace</a></li>
+                                    <li><a href="#" class="sub-nav-link">Industrial</a></li>
+                                    <li><a href="#" class="sub-nav-link">Customization</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nav-mb-item">
+                            <a href="#dropdown-menu-six" class="collapsed mb-menu-link current" data-bs-toggle="collapse" aria-expanded="true" aria-controls="dropdown-menu-six">
+                                <span>Resources
+
+                                </span>
+                                <span class="btn-open-sub"></span>
+                            </a>
+                            <div id="dropdown-menu-six" class="collapse">
+                                <ul class="sub-nav-menu">
+                                    <li><a href="blogs.aspx" class="sub-nav-link">Blogs</a></li>
+                                    <li><a href="success-stories.aspx" class="sub-nav-link">Success Stories</a></li>
+                                    <li><a href="news-and-events.aspx" class="sub-nav-link">News and Events</a></li>
+                                    <li><a href="case-study.aspx" class="sub-nav-link">Case Studies</a></li>
+                                    <li><a href="technical-resource.aspx" class="sub-nav-link">Technical Resources</a></li>
+                                    <li><a href="question-and-answer.aspx" class="sub-nav-link">Q & A</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li class="nav-mb-item">
+                            <a href="career.aspx" class=" mb-menu-link current" >
+                                <span>Career </span>
+                            </a>
+
+
+                        </li>
+                        <li class="nav-mb-item">
+                            <a href="contact-us.aspx" class=" mb-menu-link current" >
+                                <span>Contact Us </span>
+                            </a>
+
+
+                        </li>
+                     
+                    </ul>
+                   
+                </div>
+              
+            </div>
+        </div>
+        <!-- /canvasSearch -->
+
+        <!-- toolbarShopmb -->
+
+        <!-- /toolbarShopmb -->
+
+        <!-- modal login -->
+
+
+
+        <!-- /modal login -->
+
+        <!-- shoppingCart -->
+
+        <!-- /shoppingCart -->
+
+        <!-- modal compare -->
+
+        <!-- /modal compare -->
+
+        <!-- modal quick_add -->
+
+        <!-- /modal quick_add -->
+
+        <!-- modal quick_view -->
+
+        <!-- /modal quick_view -->
+
+        <!-- modal find_size -->
+
+        <!-- /modal find_size -->
+
+
+        <!-- Javascript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+        <script type="text/javascript" src="js/carousel.js"></script>
+        <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js" integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/ScrollTrigger.min.js"></script>
+        <script src="js/ScrollSmoother.min.js"></script>
+        <script type="text/javascript" src="js/lazysize.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+        <script type="text/javascript" src="js/count-down.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script type="module" src="js/model-viewer.min.js"></script>
+        <script type="text/javascript" src="js/multiple-modal.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+     
+        <script>
+            var swiper = new Swiper('.tf-sw-slideshow', {
+                loop: true,
+
+                autoplay: {
+                    delay: 1000,
+                    disableOnInteraction: false,
+                },
+                speed: 1000,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true, // Makes pagination dots clickable
+                },
+            });
+        </script>
+        <script>
+            var historySlider = new Swiper(".history-slider", {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                arrows: true,
+                navigation: {
+                    nextEl: ".history-slider .swiper-button-next",
+                    prevEl: ".history-slider .swiper-button-prev",
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 1, // Configuration for screens wider than 640px
+                        spaceBetween: 10,
+                    },
+                    768: {
+                        slidesPerView: 2, // Configuration for screens wider than 768px
+                    },
+                    1024: {
+                        slidesPerView: 3, // Configuration for screens wider than 1024px
+                    },
+                },
+                // Uncomment the following options if needed
+                // speed: 1500,
+                // autoplay: {
+                //   delay: 5000,
+                // },
+                // loop: true,
+            });
+
+        </script>
+      
+    </form>
+</body>
+</html>

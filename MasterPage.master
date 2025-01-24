@@ -1,4 +1,4 @@
-﻿    <%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
 
 <!DOCTYPE html>
 
@@ -566,7 +566,7 @@
                                     <li><a href="news-and-events.aspx" class="sub-nav-link">News and Events</a></li>
                                     <li><a href="case-study.aspx" class="sub-nav-link">Case Studies</a></li>
                                     <li><a href="technical-resource.aspx" class="sub-nav-link">Technical Resources</a></li>
-                                    <li><a href="question-and-answer.aspx" class="sub-nav-link">Q & A</a></li>
+<%--                                    <li><a href="question-and-answer.aspx" class="sub-nav-link">Q & A</a></li>--%>
                                 </ul>
                             </div>
 

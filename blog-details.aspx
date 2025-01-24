@@ -47,6 +47,8 @@
 <p>Stay informed with our comprehensive guide to drone regulations and safety. As drone usage becomes more widespread, it's crucial to understand the laws and best practices for flying. This blog covers everything from airspace restrictions to safety measures you should take before every flight. Ensure that you're flying responsibly and within legal boundaries with the help of our easy-to-follow drone regulation guide. Perfect for beginners and experienced pilots alike!</p>
 <p>Drones are transforming the landscape of defense and security. In this blog, we delve into the critical roles drones play in military operations, surveillance, search-and-rescue missions, and more. Discover how defense sectors around the world are integrating drone technology to enhance their operational efficiency and safety. Whether you're a professional in the field or a drone enthusiast, learn about the strategic advantages of using drones in defense and security.</p>
 
+
+
                             <div class="bot d-flex justify-content-between mt-4 flex-wrap align-items-center">
                                 <ul class="tags-lists">
                                     <li>
