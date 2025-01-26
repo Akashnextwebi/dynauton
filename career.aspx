@@ -91,7 +91,7 @@
     <section class="flat-spacing-23 flat-image-text-section bg-dark">
         <div class="container">
             <div class="tf-grid-layout md-col-2 tf-img-with-text style-4">
-                <div class="tf-image-wrap">
+                <div class="tf-image-wrap ">
                     <img class="w-100 ls-is-cached lazyloaded" data-src="imgs/career/about.png" src="imgs/career/about.png" alt="collection-img">
                 </div>
                 <div class="tf-content-wrap px-0 d-flex justify-content-center w-100">

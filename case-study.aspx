@@ -12,15 +12,17 @@
             justify-content: center;
             align-items: center;
         }
-                        .style-2 {
-    background: url(imgs/new1/2.png) !important;
-    background-position: center;
-    background-size: 100%;
-}
 
-.tf-page-title.style-2 {
-    padding: 100px 0px;
-}
+        .style-2 {
+            background: url(imgs/new1/2.png) !important;
+            background-position: center;
+            background-size: 100%;
+        }
+
+        .tf-page-title.style-2 {
+            padding: 100px 0px;
+        }
+
         .case-study-card2 {
             position: relative;
         }
@@ -57,38 +59,37 @@
                     margin-bottom: 15px;
                 }
 
-              
 
-                    .case-study-card2 .case-content .category-and-title h4 a {
-                        color: #fff;
-                        font-size: 24px;
-                        line-height:30px;
-                        font-weight: 500;
-                        transition: 0.35s;
-                    }
-                   
+
+                .case-study-card2 .case-content .category-and-title h4 a {
+                    color: #fff;
+                    font-size: 24px;
+                    line-height: 30px;
+                    font-weight: 500;
+                    transition: 0.35s;
+                }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-      <div class="tf-page-title style-2">
-      <div class="container">
-          <div class="row">
-              <div class="col-12">
-                  <div class="heading text-start text-white">Case Study </div>
-                                  <ul class="breadcrumbs d-flex align-items-center justify-content-start">
-    <li class="text-white">
-        <a class="text-white" href="default.aspx">Home</a>
-    </li>
-    <li class="text-white">
-        <i class="icon-arrow-right text-white"></i>
-    </li>
-    <li class="text-white">Case Study
-    </li>
-</ul>
-              </div>
-          </div>
-      </div>
-  </div>
+    <div class="tf-page-title style-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="heading text-start text-white">Case Study </div>
+                    <ul class="breadcrumbs d-flex align-items-center justify-content-start">
+                        <li class="text-white">
+                            <a class="text-white" href="default.aspx">Home</a>
+                        </li>
+                        <li class="text-white">
+                            <i class="icon-arrow-right text-white"></i>
+                        </li>
+                        <li class="text-white">Case Study
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="our-blogs">
         <div class="container">
             <div class="row gy-4">

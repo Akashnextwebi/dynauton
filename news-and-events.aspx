@@ -51,15 +51,31 @@
             padding: 20px 20px;
             background: #f1f1f1;
         }
-                                           .style-2 {
-    background: url(imgs/new1/2.png) !important;
-    background-position: center;
-    background-size: 100%;
-}
 
-.tf-page-title.style-2 {
-    padding: 100px 0px;
-}
+        .style-2 {
+            background: url(imgs/new1/2.png) !important;
+            background-position: center;
+            background-size: 100%;
+        }
+
+        .tf-page-title.style-2 {
+            padding: 100px 0px;
+        }
+        .new-sticky{
+            position:sticky;
+            top:100px;height:100%;
+        }
+        .tf-section-sidebar .sidebar-categories ul li a{
+            font-size:14px;
+            font-weight:600;
+        }
+        .blog-article-item .article-title a {
+        font-weight:600;
+        }
+        .article-content p{
+            font-size:14px !important;
+            line-height:20px !important;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -68,16 +84,16 @@
             <div class="row">
                 <div class="col-12">
                     <div class="heading text-start text-white">News and Events </div>
-                                                                                          <ul class="breadcrumbs d-flex align-items-center justify-content-start">
-    <li class="text-white">
-        <a class="text-white" href="default.aspx">Home</a>
-    </li>
-    <li class="text-white">
-        <i class="icon-arrow-right text-white"></i>
-    </li>
-    <li class="text-white">News and Events
-    </li>
-</ul>
+                    <ul class="breadcrumbs d-flex align-items-center justify-content-start">
+                        <li class="text-white">
+                            <a class="text-white" href="default.aspx">Home</a>
+                        </li>
+                        <li class="text-white">
+                            <i class="icon-arrow-right text-white"></i>
+                        </li>
+                        <li class="text-white">News and Events
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -87,29 +103,7 @@
             <div class="col-12">
                 <div class="blog-sidebar-main">
                     <div class="list-blog">
-                        <div class="blog-article-item">
-                            <div class="article-thumb">
-                                <a href="news-details.aspx" contenteditable="false" style="cursor: pointer;">
-                                    <img class=" ls-is-cached lazyloaded" data-src="imgs/new/1.png" src="imgs/new/1.png" alt="">
-                                </a>
-                                <div class="article-label">
-                                    <a href="news-details.aspx" class="tf-btn btn-sm radius-3 btn-fill animate-hover-btn" contenteditable="false" style="cursor: pointer;">Tech</a>
-                                </div>
-                            </div>
-                            <div class="article-content">
-                                <div class="article-title">
-                                    <a href="news-details.aspx" class="" contenteditable="false" style="cursor: pointer;">Dynamatic Technologies awards Aequs for supply of complex Airbus A220 door components</a>
-
-                                    
-                                   
-                                </div>
-                                <p>Dynamatic Technologies Limited and Aequs Private Limited today announced a contract for the supply of complex structural parts for the Airbus A220 DoorProgram. As part of the contract, awarded by Dynamatic Technologies for the manufacture and supply of components, Aequs will leverage its end-to-end capabilities to manufacture and deliver over 200 detailed parts requiring complex …</p>
-
-                                <div class="article-btn">
-                                    <a href="news-details.aspx" class="tf-btn btn-line fw-6" contenteditable="false" style="cursor: pointer;">Read more<i class="icon icon-arrow1-top-left"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                     
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="blog-article-item">
@@ -159,28 +153,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="blog-article-item">
-                            <div class="article-thumb">
-                                <a href="news-details.aspx" contenteditable="false" style="cursor: pointer;">
-                                    <img class=" ls-is-cached lazyloaded" data-src="imgs/new/4.png" src="imgs/new/4.png" alt="">
-                                </a>
-                                <div class="article-label">
-                                    <a href="news-details.aspx" class="tf-btn btn-sm radius-3 btn-fill animate-hover-btn" contenteditable="false" style="cursor: pointer;">Tech</a>
-                                </div>
-                            </div>
-                            <div class="article-content">
-                                <div class="article-title">
-                                    <a href="news-details.aspx" class="" contenteditable="false" style="cursor: pointer;">Christine Is A True Style Icon</a>
-                                </div>
-                                <p>Dynamatic Technologies Limited and Aequs Private Limited today announced a contract for the supply of complex structural parts for the Airbus A220 DoorProgram. As part of the contract, awarded by Dynamatic Technologies for the manufacture and supply of components, Aequs will leverage its end-to-end capabilities to manufacture and deliver over 200 detailed parts requiring complex …</p>
-
-                                <div class="article-btn">
-                                    <a href="news-details.aspx" class="tf-btn btn-line fw-6" contenteditable="false" style="cursor: pointer;">Read more<i class="icon icon-arrow1-top-left"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
+                     
+                        
+                    
                             <div class="col-md-6">
                                 <div class="blog-article-item">
                                     <div class="article-thumb">
@@ -227,6 +202,9 @@
                             </div>
                         </div>
                         <ul class="wg-pagination">
+                              <li>
+      <a href="news-details.aspx" class="pagination-item animate-hover-btn" contenteditable="false" style="cursor: pointer;"><i class="icon-arrow-left"></i></a>
+  </li>
                             <li class="active">
                                 <div class="pagination-item">1</div>
                             </li>
@@ -240,10 +218,11 @@
                                 <a href="news-details.aspx" class="pagination-item animate-hover-btn" contenteditable="false" style="cursor: pointer;"><i class="icon-arrow-right"></i></a>
                             </li>
                         </ul>
-                    </div>
-                    <div class="tf-section-sidebar wrap-sidebar-mobile">
+                 </div>
+                    
+                    <div class="tf-section-sidebar wrap-sidebar-mobile new-sticky">
                         <div class="sidebar-item sidebar-categories">
-                            <div class="sidebar-title mb-0 fw-bold">Events categories</div>
+                            <div class="sidebar-title mb-0 fw-bold">Events Categories</div>
                             <div class="sidebar-content">
                                 <ul>
                                     <li>
@@ -251,8 +230,7 @@
 </a>
                                     </li>
                                     <li>
-                                        <a href="news-details.aspx" contenteditable="false" style="cursor: pointer;">Agriculture and Environmental Events
-></a>
+                                        <a href="news-details.aspx" contenteditable="false" style="cursor: pointer;">Agriculture and Environmental Events</a>
                                     </li>
                                     <li>
                                         <a href="news-details.aspx" contenteditable="false" style="cursor: pointer;">Commercial and Industrial Drone Events

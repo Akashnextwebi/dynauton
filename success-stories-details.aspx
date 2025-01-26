@@ -1,55 +1,40 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="./MasterPage.master" AutoEventWireup="true" CodeFile="case-study-details.aspx.cs" Inherits="case_study_details" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="success-stories-details.aspx.cs" Inherits="success_stories_details" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <style>
-     
-        .bg-new-case {
-            background: url(imgs/case/details/1.png) !important;
-            padding: 150px 0px !important;
-        }
-
-      
-
-    </style>
     <link href="css/blog-details.css" rel="stylesheet" />
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div class="blog-detail tf-page-title bg-new-case">
+    <div class="tf-page-title">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10">
-                    <div class="blog-detail-main">
-                        <div class="blog-detail-main-heading">
-
-                            <div class="title text-white">Transforming Drone Sales with an E-Commerce Website</div>
-
-                        </div>
-                        <ul class="breadcrumbs d-flex align-items-center justify-content-center">
-                            <li>
-                                <a class="text-white" href="#" contenteditable="false" style="cursor: pointer;">Home</a>
-                            </li>
-                            <li>
-                                <i class="icon-arrow-right text-white"></i>
-                            </li>
-                            <li class="text-white">Case Study
-                            </li>
-                            <li>
-                                <i class="icon-arrow-right text-white"></i>
-                            </li>
-                            <li class="text-white">Details
- </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <ul class="breadcrumbs d-flex align-items-center justify-content-start">
+                <li class="text-white">
+                    <a class="text-white" href="default.aspx" contenteditable="false" style="cursor: pointer;">Home</a>
+                </li>
+                <li class="text-white">
+                    <i class="icon-arrow-right text-white"></i>
+                </li>
+                <li class="text-white">Success Stories
+                </li>
+                <li class="text-white">
+                    <i class="icon-arrow-right text-white"></i>
+                </li>
+                <li class="text-white">Success Stories Details  
+                </li>
+            </ul>
         </div>
     </div>
-    <div class="blog-details new-ul">
+
+    <div class="blog-detail blog-details new-ul">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-lg-10">
+                <div class="col-lg-10 col-12">
                     <div class="blog-detail-main">
-                        <div class="blog-detail-main-heading">
+                        <div class="blog-detail-main-heading text-start">
+
+                            <div class="title text-start mb-4">Transforming Drone Sales with an E-Commerce Website</div>
+
+
 
                             <div class="image">
                                 <img class="lazyload" data-src="imgs/blog/details/1.png" src="imgs/blog/details/1.png" alt="">
@@ -157,7 +142,7 @@
                         </section>
 
 
-                    
+
                         <div class="tf-article-navigation">
                             <div class="item position-relative d-flex w-100 prev">
                                 <a href="#" class="icon">

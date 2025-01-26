@@ -71,35 +71,35 @@
 
 
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="why-card">
                         <img src="imgs/business/engineering.png" />
                         <h3>Precision Engineering</h3>
                         <p>Our components are designed with unmatched accuracy to ensure optimal drone performance in critical defense operations.</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="why-card">
                         <img src="imgs/business/reliability.png" />
                         <h3>Rugged Durability</h3>
                         <p>Manufactured to withstand extreme conditions, including harsh climates, high altitudes, and combat scenarios.</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="why-card">
                         <img src="imgs/business/membrane.png" />
                         <h3>Lightweight Materials</h3>
                         <p>Advanced materials reduce payload weight, enabling longer flight times and better fuel efficiency.</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="why-card">
                         <img src="imgs/business/innovation.png" />
                         <h3>Innovative Technology</h3>
                         <p>Proprietary designs and cutting-edge systems tailored for military needs, including stealth, thermal resistance, and advanced sensor integration.</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="why-card">
                         <img src="imgs/business/compliant.png" />
                         <h3>Military-Grade Compliance</h3>
@@ -107,7 +107,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="why-card">
                         <img src="imgs/business/adaptability.png" />
                         <h3>Customization Capability</h3>
@@ -133,7 +133,6 @@
                             <img class="lazyload" data-src="imgs/business/1.png" src="imgs/business/1.png" alt="collection-img">
                         </a>
                         <div class="collection-content text-center">
-                            <p class="subheading text-white">UP TO 30% OFF</p>
                             <h5 class="heading ">Patang</h5>
                         </div>
                     </div>
@@ -144,7 +143,6 @@
                             <img class="lazyload" data-src="imgs/business/2.png" src="imgs/business/2.png" alt="collection-img">
                         </a>
                         <div class="collection-content text-center">
-                            <p class="subheading text-white">UP TO 30% OFF</p>
                             <h5 class="heading ">Kavaa</h5>
                         </div>
                     </div>
@@ -155,7 +153,6 @@
                             <img class="lazyload" data-src="imgs/business/3.png" src="imgs/business/3.png" alt="collection-img">
                         </a>
                         <div class="collection-content text-center">
-                            <p class="subheading text-white">UP TO 30% OFF</p>
                             <h5 class="heading">Kaatil</h5>
                         </div>
                     </div>
@@ -166,7 +163,6 @@
                             <img class="lazyload" data-src="imgs/business/3.png" src="imgs/business/3.png" alt="collection-img">
                         </a>
                         <div class="collection-content text-center">
-                            <p class="subheading text-white">UP TO 30% OFF</p>
                             <h5 class="heading">Owl</h5>
                         </div>
                     </div>
@@ -177,7 +173,6 @@
                             <img class="lazyload" data-src="imgs/business/3.png" src="imgs/business/3.png" alt="collection-img">
                         </a>
                         <div class="collection-content text-center">
-                            <p class="subheading text-white">UP TO 30% OFF</p>
                             <h5 class="heading">Cheel</h5>
                         </div>
                     </div>

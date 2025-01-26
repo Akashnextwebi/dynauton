@@ -18,6 +18,7 @@
 .tf-page-title.style-2 {
     padding: 100px 0px;
 }
+
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -169,6 +170,11 @@
                 </div>
                 <div class="col-lg-12">
                     <ul class="tf-pagination-wrap tf-pagination-list tf-pagination-btn">
+                         <li>
+     <a href="blog-details.aspx" class="pagination-link animate-hover-btn" contenteditable="false" style="cursor: pointer;">
+         <span class="icon icon-arrow-left"></span>
+     </a>
+ </li>
                         <li class="active">
                             <a href="blog-details.aspx" class="pagination-link" contenteditable="false" style="cursor: pointer;">1</a>
                         </li>

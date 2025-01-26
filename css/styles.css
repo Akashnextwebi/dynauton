@@ -10869,7 +10869,7 @@ p {
 .blog-detail .blog-detail-main .tf-article-navigation {
   display: flex;
   padding: 27px 0 23px;
-  margin-bottom: 80px;
+  margin-bottom: 0px;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
@@ -20194,4 +20194,7 @@ section.work-card.bg-dark.flat-spacing-11 {
 }
 .nav-prev-testimonial{
     right:0px;
+}
+.tf-pagination-list .pagination-link .icon{
+    width:unset !important;
 }
