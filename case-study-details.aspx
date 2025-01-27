@@ -2,50 +2,16 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <style>
-        body {
-            background: unset !important;
-        }
-
+     
         .bg-new-case {
             background: url(imgs/case/details/1.png) !important;
             padding: 150px 0px !important;
         }
 
-        .blog-detail h2 {
-            font-size: 32px !important;
-            font-weight: 600;
-        }
-           .blog-detail h3 {
-       font-size: 22px !important;
-       font-weight: 600;
-   }
+      
 
-       .new-ul ul {
-            margin: 0px 0 0;
-        }
-
-            .new-ul ul li {
-                position: relative;
-                margin-bottom: 13px;
-                font-size:16px;
-                padding-left: 20px;
-            }
-           
-               .new-ul ul li:before {
-                    content: "";
-                    position: absolute;
-                    width: 7px;
-                    height: 12px;
-                    border-bottom: 2px solid green;
-                    border-right: 2px solid green;
-                    left: 0;
-                    top: 5px;
-                    transform: rotate(45deg);
-                }
-               .blog-detail{
-                   padding:60px 0px 40px;
-               }
     </style>
+    <link href="css/blog-details.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="blog-detail tf-page-title bg-new-case">
@@ -78,10 +44,10 @@
             </div>
         </div>
     </div>
-    <div class="blog-detail new-ul">
+    <div class="blog-details new-ul">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-10">
+                <div class="col-12 col-lg-10">
                     <div class="blog-detail-main">
                         <div class="blog-detail-main-heading">
 

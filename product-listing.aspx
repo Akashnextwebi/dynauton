@@ -122,11 +122,11 @@
     <!-- Section Product -->
     <section class="flat-spacing-2 ">
         <div class="container">
-            <div class="tf-shop-control grid-3 align-items-center justify-content-between">
+            <div class="tf-shop-control d-none grid-3 align-items-center justify-content-between">
                 <div class="tf-control-filter">
                     <a href="#filterShop" data-bs-toggle="offcanvas" aria-controls="offcanvasLeft" class="tf-btn-filter"><span class="icon icon-filter"></span><span class="text">Filter</span></a>
                 </div>
-                <div class="w-50 d-flex  justify-content-end new-gap">
+                <div class="w-50 d-flex  justify-content-end new-gap d-none">
                     <div class="tf-control-sorting d-flex justify-content-end">
                         <div class="tf-dropdown-sort" data-bs-toggle="dropdown">
                             <div class="btn-select">

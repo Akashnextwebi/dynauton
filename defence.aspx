@@ -33,7 +33,7 @@
                                 DEFENCE DRONE
                             </div>
                             <p class="description">
-                                DynautonTechnologies leads the nation in delivering state-of-the-art drone solutions designed for precision, durability, and performance. Trusted by defense organizations, our cutting-edge technologies empower surveillance, reconnaissance, and combat operations with unmatched reliability.
+                                Dynauton System leads the nation in delivering state-of-the-art drone solutions designed for precision, durability, and performance. Trusted by defense organizations, our cutting-edge technologies empower surveillance, reconnaissance, and combat operations with unmatched reliability.
 
 
 
@@ -42,7 +42,7 @@
 
                             </p>
                             <div class="key-highlights">
-                                <h2>Key Highlights of DynautonTechnologies</h2>
+                                <h2>Key Highlights of Dynauton System</h2>
                                 <ul>
                                     <li><strong>State-of-the-Art Drone Solutions:</strong> Precision-engineered for durability and superior performance in defense operations.</li>
                                     <li><strong>Trusted by Defense Organizations:</strong> A proven partner delivering reliable technologies for mission-critical needs.</li>
@@ -61,7 +61,7 @@
     <section class="bg-dark why-choose-us">
         <div class="container">
             <div class="flat-title  text-center px-0">
-                <span class="title text-white wow fadeInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">Why Choose DynautonTechnologies for Defense?
+                <span class="title text-white wow fadeInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">Why Choose Dynauton System for Defense?
                 </span>
 
             </div>
@@ -71,35 +71,35 @@
 
 
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="why-card">
                         <img src="imgs/business/engineering.png" />
                         <h3>Precision Engineering</h3>
                         <p>Our components are designed with unmatched accuracy to ensure optimal drone performance in critical defense operations.</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="why-card">
                         <img src="imgs/business/reliability.png" />
                         <h3>Rugged Durability</h3>
                         <p>Manufactured to withstand extreme conditions, including harsh climates, high altitudes, and combat scenarios.</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="why-card">
                         <img src="imgs/business/membrane.png" />
                         <h3>Lightweight Materials</h3>
                         <p>Advanced materials reduce payload weight, enabling longer flight times and better fuel efficiency.</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="why-card">
                         <img src="imgs/business/innovation.png" />
                         <h3>Innovative Technology</h3>
                         <p>Proprietary designs and cutting-edge systems tailored for military needs, including stealth, thermal resistance, and advanced sensor integration.</p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="why-card">
                         <img src="imgs/business/compliant.png" />
                         <h3>Military-Grade Compliance</h3>
@@ -107,7 +107,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="why-card">
                         <img src="imgs/business/adaptability.png" />
                         <h3>Customization Capability</h3>
@@ -126,15 +126,14 @@
                 <span class="title wow fadeInUp" data-wow-delay="0s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">Our Innovations</span>
 
             </div>
-            <div class="grid-3-layout-md wow fadeInUp" data-wow-delay="0s">
+            <div class="grid-3-layout-md justify-content-center wow fadeInUp" data-wow-delay="0s">
                 <div class="item-1 collection-line-upper hover-img">
                     <div class="collection-inner">
                         <a href="#" class="collection-image img-style">
                             <img class="lazyload" data-src="imgs/business/1.png" src="imgs/business/1.png" alt="collection-img">
                         </a>
                         <div class="collection-content text-center">
-                            <p class="subheading text-white">UP TO 30% OFF</p>
-                            <h5 class="heading ">SkySentinel</h5>
+                            <h5 class="heading ">Patang</h5>
                         </div>
                     </div>
                 </div>
@@ -144,8 +143,7 @@
                             <img class="lazyload" data-src="imgs/business/2.png" src="imgs/business/2.png" alt="collection-img">
                         </a>
                         <div class="collection-content text-center">
-                            <p class="subheading text-white">UP TO 30% OFF</p>
-                            <h5 class="heading ">AeroShield</h5>
+                            <h5 class="heading ">Kavaa</h5>
                         </div>
                     </div>
                 </div>
@@ -155,8 +153,27 @@
                             <img class="lazyload" data-src="imgs/business/3.png" src="imgs/business/3.png" alt="collection-img">
                         </a>
                         <div class="collection-content text-center">
-                            <p class="subheading text-white">UP TO 30% OFF</p>
-                            <h5 class="heading">StealthHawk</h5>
+                            <h5 class="heading">Kaatil</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-3 collection-line-upper hover-img">
+                    <div class="collection-inner">
+                        <a href="#" class="collection-image img-style">
+                            <img class="lazyload" data-src="imgs/business/3.png" src="imgs/business/3.png" alt="collection-img">
+                        </a>
+                        <div class="collection-content text-center">
+                            <h5 class="heading">Owl</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-3 collection-line-upper hover-img">
+                    <div class="collection-inner">
+                        <a href="#" class="collection-image img-style">
+                            <img class="lazyload" data-src="imgs/business/3.png" src="imgs/business/3.png" alt="collection-img">
+                        </a>
+                        <div class="collection-content text-center">
+                            <h5 class="heading">Cheel</h5>
                         </div>
                     </div>
                 </div>

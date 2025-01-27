@@ -12,8 +12,28 @@
             margin-bottom: 15px;
         }
     </style>
+    <link href="css/blog-details.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+        <div class="tf-page-title">
+        <div class="container">
+            <ul class="breadcrumbs d-flex align-items-center justify-content-start">
+                <li class="text-white">
+                    <a class="text-white" href="default.aspx" contenteditable="false" style="cursor: pointer;">Home</a>
+                </li>
+                <li class="text-white">
+                    <i class="icon-arrow-right text-white"></i>
+                </li>
+                <li class="text-white">News
+                </li>
+                <li class="text-white">
+                    <i class="icon-arrow-right text-white"></i>
+                </li>
+                <li class="text-white">News Details 
+                </li>
+            </ul>
+        </div>
+    </div>
     <div class="blog-detail">
         <div class="container">
             <div class="row justify-content-center">

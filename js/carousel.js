@@ -446,8 +446,8 @@ if ($(".segment-slider").length > 0) {
         },
         navigation: {
             clickable: true,
-            nextEl: ".nav-prev-slider",
-            prevEl: ".nav-next-slider",
+            nextEl: ".nav-prev-slider1",
+            prevEl: ".nav-next-slider1",
         },
         breakpoints: {
             768: {

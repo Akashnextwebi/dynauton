@@ -5,6 +5,19 @@
         .hover-img .img-style img {
             height: 100%;
         }
+
+        .banner {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+            .banner video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -12,7 +25,7 @@
         <div id="smooth-content">
             <!-- /Header -->
             <!-- Slider -->
-            <section class="home-banner  tf-slideshow slider-effect-fade position-relative d-lg-block d-none">
+            <section class="home-banner  tf-slideshow slider-effect-fade position-relative d-none ">
                 <div dir="ltr" class="swiper tf-sw-slideshow" data-preview="1"
                     data-tablet="1"
                     data-mobile="1"
@@ -20,16 +33,13 @@
                     data-space="0"
                     data-loop="true"
                     data-auto-play="true"
-                    data-delay="500"
-                    data-speed="500">
+                    data-delay="3000"
+                    data-speed="3000">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide " lazy="true">
                             <div class="container">
                                 <div class="home-slider-content">
-                                    <%-- <h1 class="fade-item fade-item-2">Securing Nations with 
-                                        <br />
-                                        <span>Sky-High Intelligence</span></h1>--%>
-                                    <%--                                    <a href="#" class="fade-item fade-item-3 rounded-full tf-btn btn-fill animate-hover-btn btn-xl radius-3"><span>Know More</span><i class="icon icon-arrow-right"></i></a>--%>
+
                                     <img class="lazyload" data-src="imgs/mob/Securing.png" src="imgs/mob/Securing.png" alt="fashion-slideshow-01">
                                 </div>
                             </div>
@@ -37,8 +47,6 @@
                         <div class="swiper-slide" lazy="true">
                             <div class="container">
                                 <div class="home-slider-content dark-title">
-                                    <%--<h1 class="fade-item fade-item-2">Drones for <br /> <span>DEFENCE</span></h1>
-                            <a href="#" class="fade-item fade-item-3 rounded-full tf-btn btn-fill animate-hover-btn btn-xl radius-3"><span>Know More</span><i class="icon icon-arrow-right"></i></a>--%>
                                     <img class="lazyload" data-src="imgs/banner-2.png" src="imgs/banner-2.png" alt="fashion-slideshow-01">
                                 </div>
                             </div>
@@ -53,33 +61,13 @@
                     </div>
                 </div>
             </section>
-            <section class="home-banner  tf-slideshow slider-effect-fade position-relative d-lg-none d-block">
-                <div dir="ltr" class="swiper tf-sw-slideshow" data-preview="1"
-                    data-tablet="1"
-                    data-mobile="1"
-                    data-centered="false"
-                    data-space="0"
-                    data-loop="true"
-                    data-auto-play="true"
-                    data-delay="500"
-                    data-speed="500">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide " lazy="true">
-                            <img src="imgs/mob/1.png" class="w-100" />
-                        </div>
-                        <div class="swiper-slide" lazy="true">
-                            <img src="imgs/mob/2.png" class="w-100" />
-                        </div>
-                    </div>
-
-                </div>
-                <div class="wrap-pagination">
-                    <div class="container">
-                        <div class="sw-dots sw-pagination-slider justify-content-center"></div>
-                    </div>
-                </div>
-            </section>
+            <div class="banner">
+                <video autoplay loop muted>
+                    <source src="imgs/home.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+ 
+                </video>
+            </div>
 
 
             <section class="flat-spacing-11 pb-0 about-us-section">
@@ -102,7 +90,7 @@
                 </div>
 
             </section>
-            <section class="marq-sa bg-white">
+            <section class="marq-sa bg-white d-none">
                 <div class="main-marq shadow-off">
                     <div class="slide-har st1">
                         <div class="box">
@@ -152,7 +140,7 @@
                 <div class="layers"></div>
                 <div class="container">
                     <div class="wrap-carousel wrap-mobile">
-                        <div dir="ltr" class="swiper tf-sw-mobile" data-preview="1.3" data-space="15" data-tablet="1"
+                        <div dir="ltr" class="swiper tf-sw-mobile" data-preview="1.3" data-space="15" data-tablet="2" 
                             data-mobile="1">
                             <div class="swiper-wrapper grid-mobile-1">
                                 <div class="swiper-slide">
@@ -189,7 +177,7 @@
 
                         </div>
 
-                        <div class="arrow-wrap ">
+                        <div class="arrow-wrap d-md-none d-flex ">
                             <div class="slider-arrow nav-next-slider"><span class="icon icon-arrow-left"></span></div>
                             <div class="slider-arrow nav-prev-slider"><span class="icon icon-arrow-right"></span></div>
                         </div>
@@ -224,7 +212,7 @@
                         </div>
                         <div class="col-lg-12">
                             <div class="banner-wrapper radius-20 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: .4s; animation-name: fadeInUp;">
-                                <video src="imgs/banner-2.mp4" autoplay muted loop class="radius-20"></video>
+                                <video src="imgs/ban.mp4" autoplay muted loop class="radius-20"></video>
                             </div>
                         </div>
                     </div>
@@ -240,7 +228,7 @@
                             See what our satisfied customers have to say about our electronic accessories.
                         </p>
                     </div>
-                    <div dir="ltr" class="swiper tf-sw-recent" data-preview="3" data-tablet="3" data-mobile="1.3" data-space-lg="30" data-space-md="15" data-space="15" data-pagination="1" data-pagination-md="1" data-pagination-lg="1">
+                    <div dir="ltr" class="swiper tf-sw-recent" data-preview="3" data-tablet="2" data-mobile="1.3" data-space-lg="30" data-space-md="15" data-space="15" data-pagination="1" data-pagination-md="1" data-pagination-lg="1">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide wow fadeInUp" lazy="true" data-wow-delay=".3s">
                                 <div class="collection-item-v4 lg hover-img">
@@ -267,7 +255,7 @@
                                             <img class="lazyload" data-src="imgs/seg-1.png" src="imgs/seg-1.png" alt="collection-img">
                                         </a>
                                         <div class="collection-content wow fadeInUp" data-wow-delay="0s">
-                                            <h5 class="heading text_white fw-6">Agricultural 
+                                            <h5 class="heading text_white fw-6">Customization 
                                             </h5>
                                             <p class="text-white">
                                                 Innovative Solutions for Aerospace, Defense, and Homeland Security
@@ -298,13 +286,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="arrow-wrap ">
-                        <div class="slider-arrow nav-next-slider"><span class="icon icon-arrow-left"></span></div>
-                        <div class="slider-arrow nav-prev-slider"><span class="icon icon-arrow-right"></span></div>
+                    <div class="arrow-wrap d-xl-none d-lg-flex d-flex">
+                        <div class="slider-arrow1 nav-next-slider"><span class="icon icon-arrow-left"></span></div>
+                        <div class="slider-arrow1 nav-prev-slider"><span class="icon icon-arrow-right"></span></div>
                     </div>
                 </div>
             </section>
-            <section class="section-padding flat-spacing-11 box-light">
+            <section class="section-padding flat-spacing-11 box-light d-none">
                 <div class="layers"></div>
                 <div class="container">
                     <div class="custom-section-title wow fadeInUp text-center" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
@@ -531,8 +519,8 @@
                                     </div>
                                 </div>
                                 <div class="arrow-wrap">
-                                    <div class="slider-arrow nav-next-slider"><span class="icon icon-arrow-left"></span></div>
-                                    <div class="slider-arrow nav-prev-slider"><span class="icon icon-arrow-right"></span></div>
+                                    <div class="slider-arrow nav-next-slider1"><span class="icon icon-arrow-left"></span></div>
+                                    <div class="slider-arrow nav-prev-slider1"><span class="icon icon-arrow-right"></span></div>
                                 </div>
                                 <div class="sw-dots style-2 sw-pagination-testimonial justify-content-center"></div>
                             </div>
@@ -547,12 +535,12 @@
             <section class="bg-dark why-choose-us">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-12 col-lg-6">
                             <div class="why-choose-video">
                                 <video src="imgs/why-choose-vide.mp4" muted autoplay loop></video>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-12 col-lg-6">
                             <div class="why-choose-us-content">
                                 <div class="custom-section-title wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0s; animation-name: fadeInUp;">
                                     <h2><span class="text-white wow fadeInUp" data-wow-delay="0s">Why Choose Us</span></h2>
@@ -683,8 +671,11 @@
 
                                     </div>
                                 </div>
-                                <div class="nav-sw nav-next-slider nav-next-testimonial lg"><span class="icon icon-arrow-left"></span></div>
-                                <div class="nav-sw nav-prev-slider nav-prev-testimonial lg"><span class="icon icon-arrow-right"></span></div>
+                                <div class="arrow-wrap">
+
+                                    <div class="nav-sw  nav-next-testimonial lg"><span class="icon icon-arrow-left"></span></div>
+                                    <div class="nav-sw nav-prev-testimonial lg"><span class="icon icon-arrow-right"></span></div>
+                                </div>
                                 <div class="sw-dots style-2 sw-pagination-testimonial justify-content-center"></div>
 
                             </div>

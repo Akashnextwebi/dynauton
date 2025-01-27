@@ -21,7 +21,17 @@
     height: 100%;
     border: 1px dashed #3d444a;
 }
-
+.grid-3-layout-md {
+    gap: 30px;
+    grid-template-columns: repeat(5, 1fr);
+ 
+    text-align: center;
+}
+.collection-line-upper .collection-content .heading {
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 28px;
+}
     .why-card img {
         height: 48px;
         width: 48px;
@@ -89,8 +99,8 @@
 }
 
 .app-content h3 {
-    font-size: 32px !important;
-    line-height: 38px !important;
+    font-size: 32px ;
+    line-height: 38px ;
     font-weight: 600;
     margin-bottom: 15px;
 }

@@ -40,7 +40,7 @@
     </div>
     <!-- image-text -->
 
-    <section class="history-section section-padding">
+    <section class="history-section section-padding d-none">
         <div class="container">
             <div class="row">
                 <div class="col-12">

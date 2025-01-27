@@ -1,0 +1,134 @@
+﻿body {
+    background: unset !important;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px !important;
+}
+
+.title {
+    font-weight: bold;
+}
+.blog-detail-main{
+    padding:40px 0px;
+}
+.blog-details ul li {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+    .blog-details ul li:before {
+        content: "";
+        position: absolute;
+        width: 7px;
+        height: 12px;
+        border-bottom: 2px solid green;
+        border-right: 2px solid green;
+        left: 0;
+        top: 5px;
+        transform: rotate(45deg);
+    }
+
+.blog-details h2{
+    font-size:32px;
+    line-height:36px;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+.blog-details h3 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom:15px;
+    font-weight:500;
+}
+.blog-details img{
+    margin-bottom:25px;
+}
+.blog-details {
+    padding:20px 0px 40px;
+}
+.blog-details h2{
+    font-size:32px;
+    line-height:36px;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+.blog-details h3 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight:500;
+}
+.tf-page-title{
+    padding:5px 0px;
+}
+.blog-details img {
+    margin-bottom: 25px;
+}
+.blog-details {
+    padding:20px 0px 40px;
+}
+.blog-detail .blog-detail-main .blog-detail-main-heading .tags-lists{
+    margin-bottom:0px;
+}
+.blog-detail .blog-detail-main .blog-detail-main-heading .title {
+    font-weight: bold;
+}
+@media (max-width: 1199px) {
+    .blog-detail .blog-detail-main .blog-detail-main-heading .title {
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+    .blog-details h2 {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .blog-details h3 {
+        font-size: 26px;
+        line-height: 34px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 576px) {
+    .blog-detail .blog-detail-main .blog-detail-main-heading .title{
+        font-weight:bold;
+        font-size:26px !important;
+        line-height:32px !important;
+    }
+    .blog-detail .blog-detail-main .bot {
+        margin-bottom: 20px;
+        gap: 1rem;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .blog-details h2 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    .blog-details h3 {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 500;
+    }
+    .tf-page-title .breadcrumbs {
+        gap: 10px;
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+}
