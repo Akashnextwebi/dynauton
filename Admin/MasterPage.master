@@ -33,7 +33,6 @@
 <body>
     <form id="form1" runat="server">
         <div id="layout-wrapper">
-
             <header id="page-topbar">
                 <div class="layout-width">
                     <div class="navbar-header">
@@ -55,7 +54,7 @@
                                         <img src="assets/images/logo-sm.png" alt="logo" height="40">
                                     </span>
                                     <span class="logo-lg">
-                                        <img src="assets/images/logo-white.png" style="padding: 10px" alt="" height="70">
+                                        <img src="assets/images/logo-dark.png" style="padding: 10px" alt="" height="70">
                                     </span>
                                 </a>
                             </div>
@@ -123,7 +122,7 @@
                             <img src="assets/images/logo-sm.png" alt="logo" height="40">
                         </span>
                         <span class="logo-lg ">
-                            <img src="assets/images/logo-white.png" style="padding: 10px" alt="" height="70">
+                            <img src="assets/images/logo-dark.png" style="padding: 10px" alt="" height="70">
                         </span>
                     </a>
                     <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">
@@ -224,6 +223,7 @@
                         'forecolor backcolor emoticons | help',
 
                     menubar: 'file edit view insert format tools table help',
+                    branding: false,
 
                 });
                 $(".fSelect").fSelect(); $(".fs-wrap").each(function () {
